@@ -1,0 +1,2304 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.33f1c1 (66d3fe563a60) revision 6738942'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.33f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityProject/MagicCricle_Isaac
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64763
+Successfully changed project path to: D:/UnityProject/MagicCricle_Isaac
+D:/UnityProject/MagicCricle_Isaac
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 45.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1c1 (66d3fe563a60)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.33f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/MagicCricle_Isaac/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.33f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.33f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.33f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.33f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001846 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.740 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4741ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (4427ms)
+			LoadAssemblies (2257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1018ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (997ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (734ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 27.792800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.078700 ms MarkObjects: 27.441200 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Image/Map/Dungeon Tiles 2_0.png
+  artifactKey: Guid(b807b9436b820dc43b9c10446a99291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/Dungeon Tiles 2_0.png using Guid(b807b9436b820dc43b9c10446a99291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d383466796a07895248612efe59413e') in 0.075479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.606227 seconds.
+  path: Assets/Resources/Image/Map/Dungeon Tiles 2_0.png
+  artifactKey: Guid(b807b9436b820dc43b9c10446a99291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/Dungeon Tiles 2_0.png using Guid(b807b9436b820dc43b9c10446a99291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ae1d36b06f788ebc3d8e44d16810b4') in 1.117921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.561132 seconds.
+  path: Assets/Resources/New Folder
+  artifactKey: Guid(68a4cf2308619c5498439dd0b835ba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/New Folder using Guid(68a4cf2308619c5498439dd0b835ba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0a139bba33af89909a153ee1960686') in 0.002517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 330.970653 seconds.
+  path: Assets/Resources/Image/Map/TileMap
+  artifactKey: Guid(1c55c7fedceeb124dac6dcaef1a84a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap using Guid(1c55c7fedceeb124dac6dcaef1a84a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc6247e4ae1fa0373d13cf9e1527b42') in 0.002659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.688664 seconds.
+  path: Assets/Resources/Image/Map/Dungeon Tiles 2_0_0.asset
+  artifactKey: Guid(7087a098e0ad9a54ab8876d5893013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/Dungeon Tiles 2_0_0.asset using Guid(7087a098e0ad9a54ab8876d5893013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c8a0e256180d513ea29d27066fe75a') in 0.032451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.919927 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_483.asset
+  artifactKey: Guid(d51fe1491e1be1940884573e88c5e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_483.asset using Guid(d51fe1491e1be1940884573e88c5e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5172a2530d348033199fc1eb8785709d') in 0.007222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.858604 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_482.asset
+  artifactKey: Guid(2e0aaee6b2b03284ab672b681010086e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_482.asset using Guid(2e0aaee6b2b03284ab672b681010086e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f48ae4c332a8013d4b44e1321c52a99') in 0.021747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.486226 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_481.asset
+  artifactKey: Guid(ae5d618767281f949bfc95659ddf0245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_481.asset using Guid(ae5d618767281f949bfc95659ddf0245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c461f6da836699735efbfaad4f4323') in 0.017276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467607 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_480.asset
+  artifactKey: Guid(2fcdb6ae66e7ea94da420fc325566bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_480.asset using Guid(2fcdb6ae66e7ea94da420fc325566bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4ce267d16b0163c08776bb501f5b0') in 0.007112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.640327 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_479.asset
+  artifactKey: Guid(16a7de9b2158fc649a9517ab4cc6385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_479.asset using Guid(16a7de9b2158fc649a9517ab4cc6385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d5758608363e508247510b523f36cb') in 0.006817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.544205 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_478.asset
+  artifactKey: Guid(14765fd4c6ff733499f6aae54c66d56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_478.asset using Guid(14765fd4c6ff733499f6aae54c66d56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dea9d91547e55c7c5e44d1083d2ba8') in 0.008584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528252 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_477.asset
+  artifactKey: Guid(c71d806d2fb68604ca6965e27739df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_477.asset using Guid(c71d806d2fb68604ca6965e27739df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e1b037a13f8c56a56a83ff8d74168d') in 0.006759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422299 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_476.asset
+  artifactKey: Guid(6043f15966b67f848af1c0eb88539025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_476.asset using Guid(6043f15966b67f848af1c0eb88539025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad9655a5829db3f059862fa5f9a13b2') in 0.007574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.024298 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_475.asset
+  artifactKey: Guid(f2db7f48cbbdbf8419743245adc20c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_475.asset using Guid(f2db7f48cbbdbf8419743245adc20c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe01be4752bfeed945a8170b9b50d571') in 0.030260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.553669 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_474.asset
+  artifactKey: Guid(7c3fc11bd25567344a64d9d928468e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_474.asset using Guid(7c3fc11bd25567344a64d9d928468e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e9fde9f469f7bf5ce3d5bf298568fb') in 0.007050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.774120 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_473.asset
+  artifactKey: Guid(8a33b3453b759b441b09db080535e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_473.asset using Guid(8a33b3453b759b441b09db080535e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac46e89f6db177c6f89491c6915a21e9') in 0.007824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505828 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_472.asset
+  artifactKey: Guid(8efd794444b70734e87d6f13e495a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_472.asset using Guid(8efd794444b70734e87d6f13e495a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5748dd44d3ddef91f4fd55f321ccd41f') in 0.021566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.243261 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_471.asset
+  artifactKey: Guid(0b4bb83eb9362964696c09769d2f936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_471.asset using Guid(0b4bb83eb9362964696c09769d2f936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0d7d027ee5a1b555314762f0ac6fca') in 0.007384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314255 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_470.asset
+  artifactKey: Guid(d3f7a2fb599be284da42b8d6b1a3e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_470.asset using Guid(d3f7a2fb599be284da42b8d6b1a3e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de690a62bb257d5e53608b9688d13e1e') in 0.006832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229384 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_469.asset
+  artifactKey: Guid(ac9e1127b022e454b870fb5879f9bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_469.asset using Guid(ac9e1127b022e454b870fb5879f9bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7140d7c067f1ee00aac27814f9b0d9') in 0.007261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173256 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_468.asset
+  artifactKey: Guid(3bd63f3aca6ddb449bb03d7059dadf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_468.asset using Guid(3bd63f3aca6ddb449bb03d7059dadf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02279780ed4a7b623c6dfe29f37667c8') in 0.007240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164355 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_467.asset
+  artifactKey: Guid(ae6af720d01e0ce4db6341e64b321269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_467.asset using Guid(ae6af720d01e0ce4db6341e64b321269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6a4b367ac4450445872b56564a3d19') in 0.006972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176549 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_466.asset
+  artifactKey: Guid(0ee1494a40c81c546bb5e7eb527a3f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_466.asset using Guid(0ee1494a40c81c546bb5e7eb527a3f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21383f6933ed31683c1bc48730c80617') in 0.006639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141712 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_465.asset
+  artifactKey: Guid(86478696a0620c94e82ebca0e09eb8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_465.asset using Guid(86478696a0620c94e82ebca0e09eb8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b3f2fecd48e9c3e10e93ca9a7fae5c') in 0.006957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175063 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_464.asset
+  artifactKey: Guid(ed717b83e8291fc43a706cb93ba497d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_464.asset using Guid(ed717b83e8291fc43a706cb93ba497d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef0a533a854b5d280694eec0090b426') in 0.007123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196862 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_463.asset
+  artifactKey: Guid(7c81dfd2743062a4580ea537f1d5b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_463.asset using Guid(7c81dfd2743062a4580ea537f1d5b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de664c20689fbc9e1ce4753cf2c817f1') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166088 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_462.asset
+  artifactKey: Guid(e185d077346075d48bce66680c68df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_462.asset using Guid(e185d077346075d48bce66680c68df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad90fbefb7eb2e778972b4e7ca2d562') in 0.007087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173343 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_461.asset
+  artifactKey: Guid(276ad1ff903e43944a2dbdd90d40dc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_461.asset using Guid(276ad1ff903e43944a2dbdd90d40dc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3b827426ae7f7876c0fa8d052957ed') in 0.007077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166665 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_460.asset
+  artifactKey: Guid(8ddb8b112616e74478b62356a96e0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_460.asset using Guid(8ddb8b112616e74478b62356a96e0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0135ac6eea0bef5dc93ae6c5efcfa812') in 0.006689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211089 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_459.asset
+  artifactKey: Guid(d5216c0c9b628dc48a4516131f299f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_459.asset using Guid(d5216c0c9b628dc48a4516131f299f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68323a79aac4071b1c5a60668e76c75f') in 0.006850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160671 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_458.asset
+  artifactKey: Guid(beb554be56927414c9d400b76a009aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_458.asset using Guid(beb554be56927414c9d400b76a009aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76f8691c1bff3568eca03e364f9391') in 0.008027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173148 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_457.asset
+  artifactKey: Guid(ddb92ba2fd69e5c45a0c9781ce24fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_457.asset using Guid(ddb92ba2fd69e5c45a0c9781ce24fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3e706ca17b385695f8b50fc97a4192') in 0.007060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172682 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_456.asset
+  artifactKey: Guid(ab32415600b82184a9d7903398a47e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_456.asset using Guid(ab32415600b82184a9d7903398a47e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5006ba5404efed4ac8cdfa30b252048') in 0.006423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164395 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_455.asset
+  artifactKey: Guid(38da526d3560a524d9bbe59f1c100d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_455.asset using Guid(38da526d3560a524d9bbe59f1c100d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161a341b7e0f67d4006d827349478946') in 0.006733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182706 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_454.asset
+  artifactKey: Guid(226336f1316eb604eb7079a28c8161b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_454.asset using Guid(226336f1316eb604eb7079a28c8161b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48271d1659ec7f118bb09fd07787d84') in 0.006880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201614 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_453.asset
+  artifactKey: Guid(55931c6561aa288448aa3867d5df178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_453.asset using Guid(55931c6561aa288448aa3867d5df178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94e7842685244df741337b29a7fb17b') in 0.006826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176714 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_452.asset
+  artifactKey: Guid(7ea6f435e144e414cb376e17af81dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_452.asset using Guid(7ea6f435e144e414cb376e17af81dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848e4bd23cd46af8522c5b0ac80b5717') in 0.006612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166231 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_451.asset
+  artifactKey: Guid(c8edeaf3d10c0c24fa73027e74975ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_451.asset using Guid(c8edeaf3d10c0c24fa73027e74975ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51776d3e6eee9ad5ae8576a62c66167') in 0.006677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188837 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_450.asset
+  artifactKey: Guid(8a78b8bcfae66554c9b87b0e47d95932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_450.asset using Guid(8a78b8bcfae66554c9b87b0e47d95932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e60e1c7d026c0e435676977c2e0c4d1') in 0.006726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182209 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_449.asset
+  artifactKey: Guid(0e101e3f52e39624996283a097dcb56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_449.asset using Guid(0e101e3f52e39624996283a097dcb56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e4fa901c496e48531a56a7db58a57e') in 0.007034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181626 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_448.asset
+  artifactKey: Guid(0e10a602ed3320f44b07396724ea6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_448.asset using Guid(0e10a602ed3320f44b07396724ea6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7816cc32797885d7f96a01127e0b3c2') in 0.007700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197040 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_447.asset
+  artifactKey: Guid(ab4ad3246489c3040904468ea72cbce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_447.asset using Guid(ab4ad3246489c3040904468ea72cbce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923f635155a20570d96585a5c96d4da8') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188323 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_446.asset
+  artifactKey: Guid(438b721a75dc81c4887b13476949a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_446.asset using Guid(438b721a75dc81c4887b13476949a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b13c4192845f2c12f218acd7aeaf5a6') in 0.006719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183807 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_445.asset
+  artifactKey: Guid(ad3732b5f9028b546a78595018ed9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_445.asset using Guid(ad3732b5f9028b546a78595018ed9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b8c3202fd6dbcc518d3128e3376395') in 0.006890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197382 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_444.asset
+  artifactKey: Guid(da911c483d490da4ab12761b0c7e89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_444.asset using Guid(da911c483d490da4ab12761b0c7e89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8b3c686c0a60a4618ca0fc4dad5f4d') in 0.006841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180326 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_443.asset
+  artifactKey: Guid(08ea057d502b3f2469077a840c6badf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_443.asset using Guid(08ea057d502b3f2469077a840c6badf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f3d2e207a98312925711fe448f754') in 0.008666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196281 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_442.asset
+  artifactKey: Guid(266594c99e056a24b902f8c1579c00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_442.asset using Guid(266594c99e056a24b902f8c1579c00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04271778f6c3c5f1fa8aaaeebbbf2bcf') in 0.006891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189775 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_441.asset
+  artifactKey: Guid(5d609b627d05e1b43a702654e80edcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_441.asset using Guid(5d609b627d05e1b43a702654e80edcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dc1c8bc27f228a18ef2ea479ce6bdd') in 0.007799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196775 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_440.asset
+  artifactKey: Guid(696d72fa54c3b804ca797285bfec2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_440.asset using Guid(696d72fa54c3b804ca797285bfec2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faaac309fa5712acc19f37ff4b37e98') in 0.006557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181444 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_439.asset
+  artifactKey: Guid(f04648f5a5967524b917ff9fdd3fc468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_439.asset using Guid(f04648f5a5967524b917ff9fdd3fc468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566e8c6df9912d58bb8656e0e73044c') in 0.007043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477560 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_438.asset
+  artifactKey: Guid(2df80e78ef60e754daf3077fb48e9eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_438.asset using Guid(2df80e78ef60e754daf3077fb48e9eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cddaf38e1fd90b53533e71e2817e1cf') in 0.007552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277262 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_437.asset
+  artifactKey: Guid(2701181d05a953946bb762c7a4349358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_437.asset using Guid(2701181d05a953946bb762c7a4349358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66409a5353212943c13ecf4fa2dc2b1') in 0.006711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183403 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_436.asset
+  artifactKey: Guid(b315ab03c4d8ff745a10b71f639fb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_436.asset using Guid(b315ab03c4d8ff745a10b71f639fb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd052dc0868c7dd63bdc260fbd3270dcd') in 0.007916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208122 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_435.asset
+  artifactKey: Guid(e924e79c178b9bb499586c4aa9bd761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_435.asset using Guid(e924e79c178b9bb499586c4aa9bd761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4b5d49ceaf5cdd17916ceca063dc7') in 0.006470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181841 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_434.asset
+  artifactKey: Guid(fec36de9ffc2bd5408213c9cc64ce3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_434.asset using Guid(fec36de9ffc2bd5408213c9cc64ce3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dda412031bf180c34c04c365f0e541') in 0.006771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196663 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_433.asset
+  artifactKey: Guid(bff9f0238547392489973210a8fb1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_433.asset using Guid(bff9f0238547392489973210a8fb1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836e896f40ea441938714425fe73b3a4') in 0.007098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197979 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_432.asset
+  artifactKey: Guid(5dcdf0deb067c6a49b58aec5bd8dc428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_432.asset using Guid(5dcdf0deb067c6a49b58aec5bd8dc428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c941447657734d0a283abe1d19b638d2') in 0.006779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189876 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_431.asset
+  artifactKey: Guid(cb241d9fe42894842a216e196a46fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_431.asset using Guid(cb241d9fe42894842a216e196a46fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46071fbb3441b6663e192cd5a1f497ed') in 0.007156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221619 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_430.asset
+  artifactKey: Guid(47952f3226ba71040bb3321157a11f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_430.asset using Guid(47952f3226ba71040bb3321157a11f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b72f552ea2434bc684bac6010a6ec0') in 0.006682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294184 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_429.asset
+  artifactKey: Guid(dc431dfa31908af4ab5f292615f2f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_429.asset using Guid(dc431dfa31908af4ab5f292615f2f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb18146bdaa095efe86dddb114017d21') in 0.008806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467108 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_428.asset
+  artifactKey: Guid(e8f4b0aa1ce25d64fae706cf475a4579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_428.asset using Guid(e8f4b0aa1ce25d64fae706cf475a4579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b09746e87d5f4a74195a158dae91b') in 0.007120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340749 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_427.asset
+  artifactKey: Guid(12abd77dbeb9c70449d54857f7f53918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_427.asset using Guid(12abd77dbeb9c70449d54857f7f53918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60459b5782b5f7860fe0c8bdfe14e5e8') in 0.006780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.350846 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_426.asset
+  artifactKey: Guid(f4b306aee37a6d64db67c880b6bdf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_426.asset using Guid(f4b306aee37a6d64db67c880b6bdf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c6c0a5cb4165b340767f2cc879eb71') in 0.006657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.461524 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_425.asset
+  artifactKey: Guid(2f70e242a883bd14495710301b2d6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_425.asset using Guid(2f70e242a883bd14495710301b2d6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b901beeec156e1f28ee511b03a163a') in 0.029176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.470815 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_424.asset
+  artifactKey: Guid(ec3b98489b0c58140961061ff6799e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_424.asset using Guid(ec3b98489b0c58140961061ff6799e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af255ae3c63db9007f23eb822a8b68b') in 0.008716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.557555 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_423.asset
+  artifactKey: Guid(a1f855c0d65538c4cb2c816950c2a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_423.asset using Guid(a1f855c0d65538c4cb2c816950c2a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36afb8948b6c30a377b924ea30b57290') in 0.007004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.455809 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_422.asset
+  artifactKey: Guid(d52b21a17abcc5342b454952e50483a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_422.asset using Guid(d52b21a17abcc5342b454952e50483a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edee19e7bd557c8915cbb2c10b7ed692') in 0.007111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221736 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_421.asset
+  artifactKey: Guid(caa8e4a7d8be1784db87cbaf6604e25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_421.asset using Guid(caa8e4a7d8be1784db87cbaf6604e25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9230bdcbaaf47d7dfa6be86dca453f3') in 0.006936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202008 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_420.asset
+  artifactKey: Guid(73d443d6a0531f9438796bf8e036c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_420.asset using Guid(73d443d6a0531f9438796bf8e036c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be36ab1ae5f77bca63d72dadeed3eae7') in 0.006665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203043 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_419.asset
+  artifactKey: Guid(7ad73dc47d21d0b49b770aa91aa0933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_419.asset using Guid(7ad73dc47d21d0b49b770aa91aa0933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983ea6f29c03705e9f2a9a179aef46ca') in 0.006792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221779 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_418.asset
+  artifactKey: Guid(16a5348af65122242b71d89e643574de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_418.asset using Guid(16a5348af65122242b71d89e643574de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2220fd81f6fbc012e99d69bdbde9c8') in 0.006952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205845 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_417.asset
+  artifactKey: Guid(8c076040ab4543d43b4edf9a27544847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_417.asset using Guid(8c076040ab4543d43b4edf9a27544847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043ca6e5564b7869b4d49510ed00140c') in 0.006772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188361 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_416.asset
+  artifactKey: Guid(37a0392688d001d4bbe429a35df1fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_416.asset using Guid(37a0392688d001d4bbe429a35df1fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee344fe2ee540cea76ac1b4b36b193d') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202027 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_415.asset
+  artifactKey: Guid(cc1fe40a1d3733f459ed1a4a76957556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_415.asset using Guid(cc1fe40a1d3733f459ed1a4a76957556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5932efda862ccd0fd47fffb94caeba2') in 0.007475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194005 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_414.asset
+  artifactKey: Guid(89dd273bedf00b3488e51482f743150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_414.asset using Guid(89dd273bedf00b3488e51482f743150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b0e2df521916f0937a6f2e9b0cd9b1') in 0.006775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195163 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_413.asset
+  artifactKey: Guid(61426661e92c04a468234929252cb7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_413.asset using Guid(61426661e92c04a468234929252cb7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d475a81326829c9f5d033b2864a3bd7') in 0.007533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198258 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_412.asset
+  artifactKey: Guid(b8a547c3e7f8a174fa25138e33e54dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_412.asset using Guid(b8a547c3e7f8a174fa25138e33e54dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95c56ade273f3ad5a862b1fdd0ee387') in 0.008119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204027 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_411.asset
+  artifactKey: Guid(2693de38ad61ae4408360ab231160554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_411.asset using Guid(2693de38ad61ae4408360ab231160554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9dcb516e6517768fff93282f243c73') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.500778 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_410.asset
+  artifactKey: Guid(f8e1d7f65d444ed42b7192282bb87bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_410.asset using Guid(f8e1d7f65d444ed42b7192282bb87bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42a3e40f2ee070f5828d616e5d6efb2') in 0.006834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.400937 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_409.asset
+  artifactKey: Guid(30efbbd1f67f17b4397e2065cc48c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_409.asset using Guid(30efbbd1f67f17b4397e2065cc48c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068ba93df522264e5f822a9ea952e2e9') in 0.016112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.501214 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_408.asset
+  artifactKey: Guid(0d866c5b2a4b4cf46af39891245ec2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_408.asset using Guid(0d866c5b2a4b4cf46af39891245ec2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d30c309ad0741a52153ae330d826ad8') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.372791 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_407.asset
+  artifactKey: Guid(636f477d92fbd554f97609f7696a8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_407.asset using Guid(636f477d92fbd554f97609f7696a8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481ff708ff08d14ed72b69dfe7482edb') in 0.006887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.390527 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_406.asset
+  artifactKey: Guid(eca0ed0b5f5f8e74081360d3e896a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_406.asset using Guid(eca0ed0b5f5f8e74081360d3e896a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b84682913d56290b98d080c6a5a390d') in 0.007063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300905 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_405.asset
+  artifactKey: Guid(94b2aec5913c7a0428fd77ef2c9ea6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_405.asset using Guid(94b2aec5913c7a0428fd77ef2c9ea6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81adeeb5ef34727afae8e0440480530') in 0.007111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278304 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_404.asset
+  artifactKey: Guid(d5a6064b951837a4f93f978f1ecb5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_404.asset using Guid(d5a6064b951837a4f93f978f1ecb5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5589bd4e28685a2d76169bfd5c3c65a') in 0.007748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135893 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_403.asset
+  artifactKey: Guid(448e42bda41f1bb4d9634190e18c3cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_403.asset using Guid(448e42bda41f1bb4d9634190e18c3cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a24b7f3025e9ec0a1303365c008425') in 0.006944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.285404 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_402.asset
+  artifactKey: Guid(af6d6a4c2e0c05f41ad4adf6140f872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_402.asset using Guid(af6d6a4c2e0c05f41ad4adf6140f872c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14ae9e8e62d1e426323185e2cc35fdf') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276408 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_401.asset
+  artifactKey: Guid(5ab4d64ec213e7348b1a766e5f053927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_401.asset using Guid(5ab4d64ec213e7348b1a766e5f053927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb90fe8f471613ccdba227df2b711f4') in 0.006614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210064 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_400.asset
+  artifactKey: Guid(b2ff39eb58614fa4f8f162205454cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_400.asset using Guid(b2ff39eb58614fa4f8f162205454cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4e3c9f95b330a20441b2451357f6bd') in 0.007114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203684 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_399.asset
+  artifactKey: Guid(1ed5e9bd12833304cb8054526edc3925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_399.asset using Guid(1ed5e9bd12833304cb8054526edc3925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d14a5d46bef5d75b79deb3ff66f65') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206619 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_398.asset
+  artifactKey: Guid(8520198edca6cee43bd5e8f2409ed05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_398.asset using Guid(8520198edca6cee43bd5e8f2409ed05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdbd31ae5b781a31a0f894c1fcad8ee') in 0.006736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477284 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_397.asset
+  artifactKey: Guid(ebf4eb5f5c6cf7648875a468274583da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_397.asset using Guid(ebf4eb5f5c6cf7648875a468274583da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59cfab08fc370ba3ed2aba790a0db17') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189400 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_396.asset
+  artifactKey: Guid(c9e3cde7d9eff8144a32583a6f387c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_396.asset using Guid(c9e3cde7d9eff8144a32583a6f387c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5d4980945a928c1f276f42b2249dee') in 0.007620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220904 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_395.asset
+  artifactKey: Guid(8616966c7e6680f46a027a7e7a5094e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_395.asset using Guid(8616966c7e6680f46a027a7e7a5094e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a66332bbe35567f950b29925ab7096') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389783 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_394.asset
+  artifactKey: Guid(ab8bba220ab359b41ae9f23999afe3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_394.asset using Guid(ab8bba220ab359b41ae9f23999afe3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7476561c7e823af1b38f4f9e6b8d91') in 0.007323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295081 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_393.asset
+  artifactKey: Guid(11870e6c2c0e12f4a811cc785ebeecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_393.asset using Guid(11870e6c2c0e12f4a811cc785ebeecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a81b19952ac15a88fb3922d267f1e') in 0.007350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.191617 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_392.asset
+  artifactKey: Guid(1cb644ec1a8216c4ab992c8726c44ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_392.asset using Guid(1cb644ec1a8216c4ab992c8726c44ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3d71998c879289c8577e6ee5d8b0f5') in 0.006580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180455 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_391.asset
+  artifactKey: Guid(b3c93d8d9fef29b419ab99e21d3da290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_391.asset using Guid(b3c93d8d9fef29b419ab99e21d3da290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f094558527b7f4193bf2729034432070') in 0.006532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173310 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_390.asset
+  artifactKey: Guid(01591cd8c0bea8a4eb2eb5323bdf7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_390.asset using Guid(01591cd8c0bea8a4eb2eb5323bdf7cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1963ba9f18fa2c8babb6dd3f25df4f0') in 0.006488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178617 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_389.asset
+  artifactKey: Guid(79e8c653474be8b42999ecd55aac7d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_389.asset using Guid(79e8c653474be8b42999ecd55aac7d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996aae218c784457f3d934dc3faaa236') in 0.007586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199661 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_388.asset
+  artifactKey: Guid(53223ca7f4c095342af379373b0cfab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_388.asset using Guid(53223ca7f4c095342af379373b0cfab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393c0637cd6866522b72a7d13ad92a64') in 0.006626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181701 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_387.asset
+  artifactKey: Guid(ce9bb102914c6fc42beea1034695b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_387.asset using Guid(ce9bb102914c6fc42beea1034695b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c1c35e73a1d215af020fd3f2ae335e') in 0.007568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179086 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_386.asset
+  artifactKey: Guid(8d5fdec152e295740b741650c16bbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_386.asset using Guid(8d5fdec152e295740b741650c16bbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e72ec6d19972a9fd8d2bc2a63c3a719') in 0.006724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197906 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_385.asset
+  artifactKey: Guid(bd0b1dc813a0a3340882840a7c40d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_385.asset using Guid(bd0b1dc813a0a3340882840a7c40d1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d51bbf57244e4b6e28e1854743f1d0e') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203924 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_384.asset
+  artifactKey: Guid(710c6a39cd534974e9fac2f08c2151e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_384.asset using Guid(710c6a39cd534974e9fac2f08c2151e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0ec35e66e890581438f314f2ff725c') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198826 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_383.asset
+  artifactKey: Guid(98ef4da05534051469d2122718e07e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_383.asset using Guid(98ef4da05534051469d2122718e07e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de4c0712933f14542fb32acc0810965') in 0.007959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199866 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_382.asset
+  artifactKey: Guid(6221af02a4285d94898bab4316347b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_382.asset using Guid(6221af02a4285d94898bab4316347b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55fe5c7b06630ddb224a5b9334f2133') in 0.006966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163485 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_381.asset
+  artifactKey: Guid(6dd9e056818a3b0419ff08a36bee6491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_381.asset using Guid(6dd9e056818a3b0419ff08a36bee6491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b20d2c93ff7f2e32a06cb0da21d53d5') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487778 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_380.asset
+  artifactKey: Guid(156f8fac35fe861409cd9f9f6a75cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_380.asset using Guid(156f8fac35fe861409cd9f9f6a75cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b001fdd3963fe7ebd4ed149843a338c9') in 0.007186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024313 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_379.asset
+  artifactKey: Guid(9742e572fdbb22648818d0a7fb0b4d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_379.asset using Guid(9742e572fdbb22648818d0a7fb0b4d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6a5f989585964d377aa234fc0929c') in 0.006807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032886 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_378.asset
+  artifactKey: Guid(202fc61c1b6821141a7e4a42914ccd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_378.asset using Guid(202fc61c1b6821141a7e4a42914ccd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e1d7e57fc80e953cb55046f3f7900e') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010301 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_377.asset
+  artifactKey: Guid(bcf25fb08b2d7bb45ba12e8112bb9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_377.asset using Guid(bcf25fb08b2d7bb45ba12e8112bb9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368a6de32a7486797be948a3b109b369') in 0.006969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039706 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_376.asset
+  artifactKey: Guid(736a36c92a88591408bbeb1bf8f83811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_376.asset using Guid(736a36c92a88591408bbeb1bf8f83811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b7d9d0c08b35176c1d022b5f854cf') in 0.007392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287881 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_375.asset
+  artifactKey: Guid(89335cf8b00785e4985972cec33a6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_375.asset using Guid(89335cf8b00785e4985972cec33a6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a3a0b55d08915f00df4a87f7357019') in 0.007174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.490657 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_374.asset
+  artifactKey: Guid(7a263aa6c71b1f145adde4671dd0a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_374.asset using Guid(7a263aa6c71b1f145adde4671dd0a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffa3155d62906cad06aeb8f17586c10') in 0.007218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024025 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_373.asset
+  artifactKey: Guid(19a10b0ad1ab3fb4785d80e4639ffcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_373.asset using Guid(19a10b0ad1ab3fb4785d80e4639ffcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0f10f370c8a5bf4fdc3ba069da916f') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033201 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_372.asset
+  artifactKey: Guid(e3f1ba8619e09d240b1572ce34e7ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_372.asset using Guid(e3f1ba8619e09d240b1572ce34e7ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b8333dcb0c48a8d6c0feb07e19ca6b') in 0.006673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016793 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_371.asset
+  artifactKey: Guid(46a18d71ebe3e5d4cbb45a1dfc0437fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_371.asset using Guid(46a18d71ebe3e5d4cbb45a1dfc0437fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf162c8bb176921dde47500839ca362') in 0.006520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018617 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_370.asset
+  artifactKey: Guid(25c389900b38dac4d95bde03e6a391af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_370.asset using Guid(25c389900b38dac4d95bde03e6a391af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba7a8814eb2611d33ccf4f0b612ef8') in 0.006761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026594 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_369.asset
+  artifactKey: Guid(1971e9942843d5a409a800bf47d20574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_369.asset using Guid(1971e9942843d5a409a800bf47d20574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c6ef5a6971f3b1f70ecfb8991efb84') in 0.007334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018270 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_368.asset
+  artifactKey: Guid(f93f49091eea2e34f9dfd8f24a4c3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_368.asset using Guid(f93f49091eea2e34f9dfd8f24a4c3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c24a9744bf6577a12c984c78d323d4') in 0.007749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.249720 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_367.asset
+  artifactKey: Guid(fd9edfc4f511ee8489ad809b9374ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_367.asset using Guid(fd9edfc4f511ee8489ad809b9374ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e097a39249615019ffb2eba0987d17') in 0.006463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472797 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_366.asset
+  artifactKey: Guid(84be3a0ebf60e954d936f61907d49f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_366.asset using Guid(84be3a0ebf60e954d936f61907d49f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b33f45bd38ee3355dd8bfa715faddec') in 0.007594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027655 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_365.asset
+  artifactKey: Guid(210087abbf2606841a7b1b84feb35e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_365.asset using Guid(210087abbf2606841a7b1b84feb35e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ed31a1b7471361db7e1db94077e9ab') in 0.006954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018575 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_364.asset
+  artifactKey: Guid(70783befe6d9614479c73a8036acc342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_364.asset using Guid(70783befe6d9614479c73a8036acc342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccf40a42fceb762ca07c363dc907ede') in 0.007077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025820 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_363.asset
+  artifactKey: Guid(fd401227229a564499996328bf97aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_363.asset using Guid(fd401227229a564499996328bf97aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6925920cb14c91e3705d88d27138ccc9') in 0.009039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018908 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_362.asset
+  artifactKey: Guid(70a14c304f9e41942b0f578f0e94a46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_362.asset using Guid(70a14c304f9e41942b0f578f0e94a46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6471c10baf434199eadc97ab901c1738') in 0.006968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008465 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_361.asset
+  artifactKey: Guid(c5d3a12ea4fd690439db0a09e18dc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_361.asset using Guid(c5d3a12ea4fd690439db0a09e18dc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9688ebbbadb82fddd78a2c85127bd0b') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027684 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_360.asset
+  artifactKey: Guid(6b04cbc4c73e07b4ab5c3e3bd1b9b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_360.asset using Guid(6b04cbc4c73e07b4ab5c3e3bd1b9b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd099cee4074cc9b08768fa351e2a4e50') in 0.006902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211386 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_359.asset
+  artifactKey: Guid(9334cbdf2f49af94089d10b65ea7dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_359.asset using Guid(9334cbdf2f49af94089d10b65ea7dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d8183a5fc8233f677253fe03ca2259') in 0.007188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.489456 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_358.asset
+  artifactKey: Guid(b914f2da99e94454bb96609c437ce49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_358.asset using Guid(b914f2da99e94454bb96609c437ce49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c06176244ff1d3bd1ec2def3333107') in 0.007758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024246 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_357.asset
+  artifactKey: Guid(8760cbbbab78cd7489d83dee0066c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_357.asset using Guid(8760cbbbab78cd7489d83dee0066c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f3b0a7bb81644a6ac101ac001e265d') in 0.009735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018217 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_356.asset
+  artifactKey: Guid(f4c03d7acf869ca49a64638a009e9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_356.asset using Guid(f4c03d7acf869ca49a64638a009e9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f86e02d1a1c3502f1d7b25af5d4431') in 0.006562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022622 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_355.asset
+  artifactKey: Guid(498319b336919d949ae481cbd94a8f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_355.asset using Guid(498319b336919d949ae481cbd94a8f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff406a16ff720d20f5904c462ee3dc1') in 0.006965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024292 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_354.asset
+  artifactKey: Guid(99a56849d29cd344c91d79b50079cbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_354.asset using Guid(99a56849d29cd344c91d79b50079cbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1886cec2ddace515e7dce5740fa9e7d') in 0.006944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024781 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_353.asset
+  artifactKey: Guid(42d198f97ba8e6e4cae9e8cf1f81d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_353.asset using Guid(42d198f97ba8e6e4cae9e8cf1f81d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2ca0292287524f02f7355f4460626') in 0.009057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014458 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_352.asset
+  artifactKey: Guid(005c025f0e560ea42ae029f45e112ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_352.asset using Guid(005c025f0e560ea42ae029f45e112ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f61884e4b7bf62b0047ce1ff8e5840') in 0.006934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033105 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_351.asset
+  artifactKey: Guid(936197d26aa55f24899f614bbc7a4fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_351.asset using Guid(936197d26aa55f24899f614bbc7a4fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e2f15402e0f1217fec58df3cb084e') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019795 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_350.asset
+  artifactKey: Guid(73693f27438b6c642bd886d41a878e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_350.asset using Guid(73693f27438b6c642bd886d41a878e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6732fab6989054c957a1f84668a7a81') in 0.007769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008171 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_349.asset
+  artifactKey: Guid(8c8d1320f4cdf6e4eac1c31da35536f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_349.asset using Guid(8c8d1320f4cdf6e4eac1c31da35536f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e8d7a19be8f0e94a7434f4f827d323') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040339 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_348.asset
+  artifactKey: Guid(0d32d293db7456b41acee5a1c79f124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_348.asset using Guid(0d32d293db7456b41acee5a1c79f124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdb08b950b9e48d9d5048baf121d615') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017184 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_347.asset
+  artifactKey: Guid(80d5f42fd77076b45823780d1a8a979f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_347.asset using Guid(80d5f42fd77076b45823780d1a8a979f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec23f2359e53582ce626466c95dfb45') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016724 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_346.asset
+  artifactKey: Guid(53afca56d780ea04c81c15b6ac6c539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_346.asset using Guid(53afca56d780ea04c81c15b6ac6c539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5debb796bbbc72e26dae9d222a88dc17') in 0.007559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017785 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_345.asset
+  artifactKey: Guid(80b524f921e16a048adb027896254fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_345.asset using Guid(80b524f921e16a048adb027896254fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84de70d5da3a0968766d8c5a151675a7') in 0.007700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017871 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_344.asset
+  artifactKey: Guid(5f0f21a3e0067ee489d924d6e82633f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_344.asset using Guid(5f0f21a3e0067ee489d924d6e82633f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaa67f4e2f8ede8dd0807be8ebc2b86') in 0.006843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030451 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_343.asset
+  artifactKey: Guid(46e69aba4324b524b90fc61dbdab64b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_343.asset using Guid(46e69aba4324b524b90fc61dbdab64b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f1cdae079be8abbc77ec0ae818fb6') in 0.007963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019897 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_342.asset
+  artifactKey: Guid(7f0a464490a368b45a71115148fbc686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_342.asset using Guid(7f0a464490a368b45a71115148fbc686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16da933dc0bb3fa4833a0c6b38e6c268') in 0.011540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010704 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_341.asset
+  artifactKey: Guid(68fc37e2852e2854f902b5747b0f8f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_341.asset using Guid(68fc37e2852e2854f902b5747b0f8f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973e463c3a2bb5400389a50f17c7e5e') in 0.006649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033834 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_340.asset
+  artifactKey: Guid(c2014105d2f3eb5419ed71e03608e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_340.asset using Guid(c2014105d2f3eb5419ed71e03608e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9541823885f7435483ac4fa4271c77') in 0.007811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018258 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_339.asset
+  artifactKey: Guid(73492e12cd3db9c4bb38a17d41eec71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_339.asset using Guid(73492e12cd3db9c4bb38a17d41eec71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ae5d2e7717ae058e95ffe0bdb3b98d') in 0.007133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017976 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_338.asset
+  artifactKey: Guid(d39354e80c74b6043a09717c1e41b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_338.asset using Guid(d39354e80c74b6043a09717c1e41b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a36a40eb9d65a507b1a5940b5ad6f67') in 0.007155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027609 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_337.asset
+  artifactKey: Guid(71c7127e61c41d441badeb9a1c91cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_337.asset using Guid(71c7127e61c41d441badeb9a1c91cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f3c3a5d2bee10e2aa167f3ab213b75') in 0.008250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020421 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_336.asset
+  artifactKey: Guid(41addf690b1be254f8ef5e02ea7f48e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_336.asset using Guid(41addf690b1be254f8ef5e02ea7f48e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3b8e0729f00921c68b5262533b97a') in 0.006739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019040 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_335.asset
+  artifactKey: Guid(d064fdb1aa1a9c547a682114909e7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_335.asset using Guid(d064fdb1aa1a9c547a682114909e7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e908ba09a4f07443bfae5fa4d2c970d') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026641 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_334.asset
+  artifactKey: Guid(7925681df00a83f4581bfde5ebd8c500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_334.asset using Guid(7925681df00a83f4581bfde5ebd8c500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031157b74af493ea506d42db3c6aa1c3') in 0.251846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_329.asset
+  artifactKey: Guid(fd37123afe7d30447be56055235e77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_329.asset using Guid(fd37123afe7d30447be56055235e77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a66b5241162759f44db0c2517413322') in 0.008796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_330.asset
+  artifactKey: Guid(e2a6cea9c229826429b10a3b087c7914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_330.asset using Guid(e2a6cea9c229826429b10a3b087c7914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0f0cc2bacc0a2c12c009676c4b2a05') in 0.006979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_327.asset
+  artifactKey: Guid(43c4a50f2a2657d42b436e8214293886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_327.asset using Guid(43c4a50f2a2657d42b436e8214293886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed60c6d2f3580ad80b3fa69998b20c2') in 0.006991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_332.asset
+  artifactKey: Guid(57ea9b8b52a02204c856228b953fb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_332.asset using Guid(57ea9b8b52a02204c856228b953fb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d84dc481446ad6947343c42f793ba2') in 0.008511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_325.asset
+  artifactKey: Guid(967b73fe727fd4b48861d22a520b185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_325.asset using Guid(967b73fe727fd4b48861d22a520b185e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660446d9f835634f9c895f6af04bddf4') in 0.009302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_326.asset
+  artifactKey: Guid(430d28cc8596b1d4babc0888bea8fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_326.asset using Guid(430d28cc8596b1d4babc0888bea8fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10bb1fa6135bcd82064cdbad354ab73') in 0.008364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_331.asset
+  artifactKey: Guid(54a0897f516a82242b2fc1fad9838009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_331.asset using Guid(54a0897f516a82242b2fc1fad9838009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbea93b89b4ab2ac326c58cb4d60384') in 0.006659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_328.asset
+  artifactKey: Guid(4c328307a37d7e74c814259a5038c96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_328.asset using Guid(4c328307a37d7e74c814259a5038c96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c054fe3006624abe7d7b16e175886b') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_324.asset
+  artifactKey: Guid(ebe4266a9e80a3f40b0c10d063019454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_324.asset using Guid(ebe4266a9e80a3f40b0c10d063019454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5855a20d96a50a9cbb630dc489c9a22') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_333.asset
+  artifactKey: Guid(84debccb8b0cf7d4e97e3ac57dbf107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_333.asset using Guid(84debccb8b0cf7d4e97e3ac57dbf107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e1c706aa50f554f2b33494937d49d3') in 0.011987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_323.asset
+  artifactKey: Guid(a357d4975fdd91a49ab12df493f5ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_323.asset using Guid(a357d4975fdd91a49ab12df493f5ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a31b2308e6b0c7216f4346673c23ec6') in 0.006931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003372 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_322.asset
+  artifactKey: Guid(4a7a32a5b6209be44854097328c3ec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_322.asset using Guid(4a7a32a5b6209be44854097328c3ec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176f41d26ac35171c6e02879aa96f041') in 0.007294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023734 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_321.asset
+  artifactKey: Guid(141fddc7468b1bf4e9ff45d4e619c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_321.asset using Guid(141fddc7468b1bf4e9ff45d4e619c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4482f6d7103122adbb22a503f19f765') in 0.009581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018919 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_320.asset
+  artifactKey: Guid(9681db3105807a54fa839eb9f72fee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_320.asset using Guid(9681db3105807a54fa839eb9f72fee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3185169f3ffca89c3e238672abad0f1') in 0.007260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017600 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_319.asset
+  artifactKey: Guid(6305d265d3e6f5544adcfece7f1bf435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_319.asset using Guid(6305d265d3e6f5544adcfece7f1bf435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e88a37acd651d8093aa843356db69') in 0.007927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018611 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_318.asset
+  artifactKey: Guid(1fca7fc91025500408fd5013f356db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_318.asset using Guid(1fca7fc91025500408fd5013f356db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a935b708b305bc1c941bffd55da21d') in 0.008607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019090 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_317.asset
+  artifactKey: Guid(11be117adb750394d8799493365cc42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_317.asset using Guid(11be117adb750394d8799493365cc42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1ea9f9cb6a0e4394ec97afac67fe1f') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019533 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_316.asset
+  artifactKey: Guid(c4023b064b50d344bb8c8c61fe0ed983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_316.asset using Guid(c4023b064b50d344bb8c8c61fe0ed983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f0dc06fe24624552093cf1ac74a5a9') in 0.007736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035904 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_315.asset
+  artifactKey: Guid(e5f430930cb3c194382b85dd7a354e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_315.asset using Guid(e5f430930cb3c194382b85dd7a354e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d06a0cbf6dd4fbeaa99f166c45bc26c') in 0.012330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010348 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_314.asset
+  artifactKey: Guid(a543618e270a19d4e86ce0fd06217636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_314.asset using Guid(a543618e270a19d4e86ce0fd06217636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea9f7f0afc2f05f23790de897ad2872') in 0.007683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021729 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_313.asset
+  artifactKey: Guid(f552f75a800972447aae5bcdec0510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_313.asset using Guid(f552f75a800972447aae5bcdec0510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4c486bd704a8d13611eea3fa3e1198') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020472 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_312.asset
+  artifactKey: Guid(951e6ee6cd9dd8343815b61c6c82d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_312.asset using Guid(951e6ee6cd9dd8343815b61c6c82d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d781611c053f340a42a6856bcbc104') in 0.007620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018642 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_311.asset
+  artifactKey: Guid(3164e549042697345b0dad60fd531cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_311.asset using Guid(3164e549042697345b0dad60fd531cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4548051fa96fad3ebbcba28d3dff9341') in 0.009924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027296 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_310.asset
+  artifactKey: Guid(3b4b646e391927849a319bc3fe89b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_310.asset using Guid(3b4b646e391927849a319bc3fe89b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e35861f9946088e3590a10a76052df') in 0.008449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017152 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_309.asset
+  artifactKey: Guid(e8a02969f330a594491ed63f63c4479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_309.asset using Guid(e8a02969f330a594491ed63f63c4479c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e0a7dc1c818c6b2059436838e0c318') in 0.006808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021847 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_308.asset
+  artifactKey: Guid(32e84d26a450ed344b2a817fa8a86191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_308.asset using Guid(32e84d26a450ed344b2a817fa8a86191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465000efffc868a4743dc32bfa9dd28') in 0.007207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.675918 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_1.asset
+  artifactKey: Guid(e020646458f06464ba515bda669c2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_1.asset using Guid(e020646458f06464ba515bda669c2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ad7b74eb503df63f18bc50ae33926e') in 0.008184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395342 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_2.asset
+  artifactKey: Guid(d837b02ab0ef5d842bb542d4182fabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_2.asset using Guid(d837b02ab0ef5d842bb542d4182fabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bf825cfdc6e1e5a56bbd7dd602893') in 0.030976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.526180 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_3.asset
+  artifactKey: Guid(0e8ff4e84e877034f8f6b04ca97b9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_3.asset using Guid(0e8ff4e84e877034f8f6b04ca97b9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c744504b78bb949578d7388aa7cbc7') in 0.009207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578537 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_4.asset
+  artifactKey: Guid(9454b4b9b40918b47abde9b03d0ba698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_4.asset using Guid(9454b4b9b40918b47abde9b03d0ba698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d847a93b917be0b6fdeec047cae94c') in 0.012378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.383608 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_5.asset
+  artifactKey: Guid(4aabae5e66b8dda43a3eaf622d5da58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_5.asset using Guid(4aabae5e66b8dda43a3eaf622d5da58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dfdd909eb789fd89e64f4c1cdeeae4') in 0.008370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.268750 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_6.asset
+  artifactKey: Guid(ad29f83e6526c8f4094997b56e073463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_6.asset using Guid(ad29f83e6526c8f4094997b56e073463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be5a960e0cf44f9f4c43a5511287be9') in 0.007970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.240724 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_7.asset
+  artifactKey: Guid(68e5a8f628c70e745aa09c49bae949f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_7.asset using Guid(68e5a8f628c70e745aa09c49bae949f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf5fa1c98e3dab944fb47b55956c7fe') in 0.009233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479352 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_8.asset
+  artifactKey: Guid(86ba64986d74e914c928910b298accdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_8.asset using Guid(86ba64986d74e914c928910b298accdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccc55ba24fb2707a48f14d9d9cefd81') in 0.008447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208851 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_9.asset
+  artifactKey: Guid(c1688b0362d335f489c35a195325089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_9.asset using Guid(c1688b0362d335f489c35a195325089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b610041300c02ca2697db7a55dc8aa6b') in 0.007813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219900 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_10.asset
+  artifactKey: Guid(612f3cd08223a5340a1089d95dff29e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_10.asset using Guid(612f3cd08223a5340a1089d95dff29e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853b1f46f0f9e425b858de6c397857e1') in 0.008019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.489978 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_11.asset
+  artifactKey: Guid(ba2a59a4435db7540a84e7582be02297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_11.asset using Guid(ba2a59a4435db7540a84e7582be02297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f528cfff4a21ea0a736e2b44f7e31d21') in 0.007974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024630 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_12.asset
+  artifactKey: Guid(1ec02f87dce8bec458b16f2df692ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_12.asset using Guid(1ec02f87dce8bec458b16f2df692ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21158e34e95ce2630b76e3e7b8d6b1a') in 0.007355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027008 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_13.asset
+  artifactKey: Guid(e0b7b096f24fb5943a714f3b4dfc5c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_13.asset using Guid(e0b7b096f24fb5943a714f3b4dfc5c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd108deeb7e82c99eb359f095af57c45') in 0.008228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019656 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_14.asset
+  artifactKey: Guid(d52ec4980b7caa040a8b6e35a5d7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_14.asset using Guid(d52ec4980b7caa040a8b6e35a5d7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e1efb7e97db3f66457ee433edf7bf') in 0.010131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021102 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_15.asset
+  artifactKey: Guid(2c21d7edcd7de49409dee9f80fcbab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_15.asset using Guid(2c21d7edcd7de49409dee9f80fcbab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4f9db9a5577e25fdb7e0d622dce2a4') in 0.009055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018753 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_16.asset
+  artifactKey: Guid(926e93d5c12ed0c4db7115badf5835a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_16.asset using Guid(926e93d5c12ed0c4db7115badf5835a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44870e50d63fd1fce1664d4d40b11f5e') in 0.010621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017789 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_17.asset
+  artifactKey: Guid(c08765cd31929c84ba38d44781f1443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_17.asset using Guid(c08765cd31929c84ba38d44781f1443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b46aa3b6cb4b3d90129cbcb70379ea') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024363 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_18.asset
+  artifactKey: Guid(745b8626dfe8ba043b682ece0ac2b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_18.asset using Guid(745b8626dfe8ba043b682ece0ac2b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc1c13599ab706710d8fecb3c757382') in 0.010709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022039 seconds.
+  path: Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_19.asset
+  artifactKey: Guid(03f08f9e96ddf9647a8c427b55fba854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/TileMap/Dungeon Tiles 2_0_19.asset using Guid(03f08f9e96ddf9647a8c427b55fba854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da167ddb4e91aafb043b486ceed61423') in 0.009988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 410.474205 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png
+  artifactKey: Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png using Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3094f8a54e938a0fb16994ba78ecd2a') in 0.023264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.806548 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png
+  artifactKey: Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png using Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3260c126dee31e2d29b63be3d2ce374b') in 0.015649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.836500 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png
+  artifactKey: Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png using Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60235d6a563744ac9a6b473dac3a24ba') in 0.007853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.363796 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png
+  artifactKey: Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png using Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a089e29f2b2202f1d287467555694d') in 0.021445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.249185 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png
+  artifactKey: Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png using Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f307e26a0f2e16c092d3736ef7059aa') in 0.371472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.259710 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png
+  artifactKey: Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 3.png using Guid(1b38e0d7389e44f4a98b4da91f5edcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0967b972dfe811cdf957c48920fa0') in 0.424992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 993.121391 seconds.
+  path: Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png
+  artifactKey: Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Map/RPG DUNGEON VOL 2.png using Guid(ef6eb4f5b300e224a8971cfcbe835d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea2ccd4f4ba16be433a784ad0fff6c4') in 0.395411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1287.994543 seconds.
+  path: Assets/Scripts/QFramework.cs
+  artifactKey: Guid(bcede2d375f3a8040bfe1c2780b60ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QFramework.cs using Guid(bcede2d375f3a8040bfe1c2780b60ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4570a1eb8ec798bfcf6e901cf161c1') in 0.048788 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.192187 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 2.731400 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.387400 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (951ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 2.731800 ms (FindLiveObjects: 0.136300 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.419400 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.772772 seconds.
+  path: Assets/Scripts/QFramework.cs
+  artifactKey: Guid(bcede2d375f3a8040bfe1c2780b60ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QFramework.cs using Guid(bcede2d375f3a8040bfe1c2780b60ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81361496c7987e8b1d1a28f976f4aa36') in 0.005396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.876602 seconds.
+  path: Assets/Scripts/Controller
+  artifactKey: Guid(f812b635c449b9941a0e353b3e6d6f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller using Guid(f812b635c449b9941a0e353b3e6d6f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9847a980a8b4d472aeedc931ac78bc92') in 0.002725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.802218 seconds.
+  path: Assets/Scripts/Model
+  artifactKey: Guid(7b2c8f87621e3e140832180b1023a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Model using Guid(7b2c8f87621e3e140832180b1023a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a70956ca0ed430e7c8c58a61ecb75d') in 0.003965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.718290 seconds.
+  path: Assets/Scripts/Command
+  artifactKey: Guid(7c2317c44579e9746a3d92e41d3cf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Command using Guid(7c2317c44579e9746a3d92e41d3cf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007498bbbae0563d5ef480941740f1e9') in 0.003365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.051253 seconds.
+  path: Assets/Scripts/System
+  artifactKey: Guid(4991f7c7976defc4bada2cd390f79f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System using Guid(4991f7c7976defc4bada2cd390f79f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca5e5547e20aad264bef14bcdddeb8f') in 0.003295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.528826 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(e3aa1496d25d29e41aa04f6b87ada778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(e3aa1496d25d29e41aa04f6b87ada778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0916d68ccacf06d1ac4947eb329de62e') in 0.002940 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 2.735000 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.103800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.512589 seconds.
+  path: Assets/Scripts/Controller/BaseController.cs
+  artifactKey: Guid(b768a37cf6f718246b1bfddc027f81b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller/BaseController.cs using Guid(b768a37cf6f718246b1bfddc027f81b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81af4b33b3afc3b0f4a408400047337') in 0.007322 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003120 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1289ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1119ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 3.554400 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.086800 ms MarkObjects: 3.129600 ms  DeleteObjects: 0.177600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 209.420825 seconds.
+  path: Assets/Scripts/MagicCricle_Isaac_Context.cs
+  artifactKey: Guid(b6ff975ccae4e5c419eb7684ad1d0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MagicCricle_Isaac_Context.cs using Guid(b6ff975ccae4e5c419eb7684ad1d0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852fb787d271143be8c2ed14b755c13a') in 0.007532 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 2.693900 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.386700 ms  DeleteObjects: 0.102700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 2.770000 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.452800 ms  DeleteObjects: 0.104600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193.498129 seconds.
+  path: Assets/Scripts/MagicCricle_Isaac_Context.cs
+  artifactKey: Guid(b6ff975ccae4e5c419eb7684ad1d0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MagicCricle_Isaac_Context.cs using Guid(b6ff975ccae4e5c419eb7684ad1d0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b8611b237abcfc8755c5e6e7aec424') in 0.004776 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.805300 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.488700 ms  DeleteObjects: 0.108100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252.165408 seconds.
+  path: Assets/Scripts/System/UISystem.cs
+  artifactKey: Guid(916c499d9594748478bec4037e234604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/UISystem.cs using Guid(916c499d9594748478bec4037e234604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bda3716f784f7bb6022f2c15614f3d') in 0.007587 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2674.
+Total: 3.046200 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.687400 ms  DeleteObjects: 0.141500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002490 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 2.822400 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.496800 ms  DeleteObjects: 0.105900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139.189537 seconds.
+  path: Assets/Scripts/System/UISystem.cs
+  artifactKey: Guid(916c499d9594748478bec4037e234604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/UISystem.cs using Guid(916c499d9594748478bec4037e234604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a32fdf570f346a0a8cde08ed85b9703') in 0.006112 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002652 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 2.853900 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.549100 ms  DeleteObjects: 0.107000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 2.773600 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.417100 ms  DeleteObjects: 0.111100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 3.027900 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.688000 ms  DeleteObjects: 0.119800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 2.663500 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.115200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 628.558953 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png
+  artifactKey: Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png using Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d955ccfd06f89d3a1d8f3265055e79') in 0.049968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.756409 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png
+  artifactKey: Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png using Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03efa16d6816db0021c223c51aada0f6') in 0.021956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.599077 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png
+  artifactKey: Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png using Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d8f81c6b7e923858cd2017bfd4e55d') in 0.044064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.760865 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png
+  artifactKey: Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png using Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bda645959c6d8523b8a4fc5b88e4ff') in 0.038319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.679360 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png
+  artifactKey: Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png using Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d87d8b6c55bc37e0d3fef8981a272e') in 0.033578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.281200 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png
+  artifactKey: Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png using Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8900edc6ce67c6d4a28e2ce1c8b4d4c1') in 0.008957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.629990 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png
+  artifactKey: Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png using Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63c9fe04dce674281caa0bbe13c5c51') in 0.064210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.807730 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png
+  artifactKey: Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2(1).png using Guid(371ccc4301f5c7a4a88fa58c2aa72e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98fd88a045e20ab45bb3b5d62134331') in 0.118501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.352874 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png
+  artifactKey: Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png using Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cafde861558a76f61daa496bb7b17c') in 0.014166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.545924 seconds.
+  path: Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png
+  artifactKey: Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Enemy/slime_monster_24x24_preview2.png using Guid(5cf524d2cf8a4fe4ebbbfd3e33f85e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e69c20c906f73fdba07c0fa219a47c') in 0.055507 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002622 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\MagicCricle_Isaac\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Domain Reload Profiling:
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 2.816800 ms (FindLiveObjects: 0.145300 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.475300 ms  DeleteObjects: 0.122200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
