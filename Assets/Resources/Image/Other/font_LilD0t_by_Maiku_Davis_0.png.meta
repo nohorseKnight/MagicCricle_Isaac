@@ -1,0 +1,2748 @@
+fileFormatVersion: 2
+guid: 927fb605fc4cb8142b9e16afbf800dad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8168434596092854454
+    second: font_LilD0t_by_Maiku_Davis_0_0
+  - first:
+      213: -126320764001112344
+    second: font_LilD0t_by_Maiku_Davis_0_1
+  - first:
+      213: -3234693320179155865
+    second: font_LilD0t_by_Maiku_Davis_0_2
+  - first:
+      213: -1762805694811504621
+    second: font_LilD0t_by_Maiku_Davis_0_3
+  - first:
+      213: -4534882028082808620
+    second: font_LilD0t_by_Maiku_Davis_0_4
+  - first:
+      213: 2453690492529328242
+    second: font_LilD0t_by_Maiku_Davis_0_5
+  - first:
+      213: 9126311868595164491
+    second: font_LilD0t_by_Maiku_Davis_0_6
+  - first:
+      213: 3077119625613282245
+    second: font_LilD0t_by_Maiku_Davis_0_7
+  - first:
+      213: 3858505490518426045
+    second: font_LilD0t_by_Maiku_Davis_0_8
+  - first:
+      213: 689857502213822901
+    second: font_LilD0t_by_Maiku_Davis_0_9
+  - first:
+      213: 9160999876055758870
+    second: font_LilD0t_by_Maiku_Davis_0_10
+  - first:
+      213: -7664453938623350258
+    second: font_LilD0t_by_Maiku_Davis_0_11
+  - first:
+      213: -6639130571251266399
+    second: font_LilD0t_by_Maiku_Davis_0_12
+  - first:
+      213: 5353719123441158563
+    second: font_LilD0t_by_Maiku_Davis_0_13
+  - first:
+      213: -3491674845740616424
+    second: font_LilD0t_by_Maiku_Davis_0_14
+  - first:
+      213: 2913203548379505663
+    second: font_LilD0t_by_Maiku_Davis_0_15
+  - first:
+      213: -2390834990942828467
+    second: font_LilD0t_by_Maiku_Davis_0_16
+  - first:
+      213: 7820913762457517962
+    second: font_LilD0t_by_Maiku_Davis_0_17
+  - first:
+      213: 1177261486013348241
+    second: font_LilD0t_by_Maiku_Davis_0_18
+  - first:
+      213: 5847611631603145964
+    second: font_LilD0t_by_Maiku_Davis_0_19
+  - first:
+      213: 447973396540055007
+    second: font_LilD0t_by_Maiku_Davis_0_20
+  - first:
+      213: 524277647748346011
+    second: font_LilD0t_by_Maiku_Davis_0_21
+  - first:
+      213: -1413606153216022000
+    second: font_LilD0t_by_Maiku_Davis_0_22
+  - first:
+      213: -6287041273494860574
+    second: font_LilD0t_by_Maiku_Davis_0_23
+  - first:
+      213: -876288339529698356
+    second: font_LilD0t_by_Maiku_Davis_0_24
+  - first:
+      213: 1361093336003495403
+    second: font_LilD0t_by_Maiku_Davis_0_25
+  - first:
+      213: 3937652620172391424
+    second: font_LilD0t_by_Maiku_Davis_0_26
+  - first:
+      213: 498113479078142994
+    second: font_LilD0t_by_Maiku_Davis_0_27
+  - first:
+      213: -8400432327976293683
+    second: font_LilD0t_by_Maiku_Davis_0_28
+  - first:
+      213: 3643024038075475836
+    second: font_LilD0t_by_Maiku_Davis_0_29
+  - first:
+      213: -7201735632635713063
+    second: font_LilD0t_by_Maiku_Davis_0_30
+  - first:
+      213: 8597221529387129303
+    second: font_LilD0t_by_Maiku_Davis_0_31
+  - first:
+      213: 4341019620036074593
+    second: font_LilD0t_by_Maiku_Davis_0_32
+  - first:
+      213: -8097555566093708555
+    second: font_LilD0t_by_Maiku_Davis_0_33
+  - first:
+      213: 5308543625227969059
+    second: font_LilD0t_by_Maiku_Davis_0_34
+  - first:
+      213: -93688887211245803
+    second: font_LilD0t_by_Maiku_Davis_0_35
+  - first:
+      213: 7727231209522401815
+    second: font_LilD0t_by_Maiku_Davis_0_36
+  - first:
+      213: 2224820823682096362
+    second: font_LilD0t_by_Maiku_Davis_0_37
+  - first:
+      213: -3575176376715566629
+    second: font_LilD0t_by_Maiku_Davis_0_38
+  - first:
+      213: -3978082266387592632
+    second: font_LilD0t_by_Maiku_Davis_0_39
+  - first:
+      213: -2225756550830280086
+    second: font_LilD0t_by_Maiku_Davis_0_40
+  - first:
+      213: 4409637192142820384
+    second: font_LilD0t_by_Maiku_Davis_0_41
+  - first:
+      213: 4524084438362555445
+    second: font_LilD0t_by_Maiku_Davis_0_42
+  - first:
+      213: -8360241100449178544
+    second: font_LilD0t_by_Maiku_Davis_0_43
+  - first:
+      213: -8207909003878990401
+    second: font_LilD0t_by_Maiku_Davis_0_44
+  - first:
+      213: -1198966872264015944
+    second: font_LilD0t_by_Maiku_Davis_0_45
+  - first:
+      213: 5229748173566582374
+    second: font_LilD0t_by_Maiku_Davis_0_46
+  - first:
+      213: 3381245095759963898
+    second: font_LilD0t_by_Maiku_Davis_0_47
+  - first:
+      213: 1921022545379851336
+    second: font_LilD0t_by_Maiku_Davis_0_48
+  - first:
+      213: 6330276926476993195
+    second: font_LilD0t_by_Maiku_Davis_0_49
+  - first:
+      213: -8262590435146018543
+    second: font_LilD0t_by_Maiku_Davis_0_50
+  - first:
+      213: 8741833012965580199
+    second: font_LilD0t_by_Maiku_Davis_0_51
+  - first:
+      213: -3966938682750436639
+    second: font_LilD0t_by_Maiku_Davis_0_52
+  - first:
+      213: 57359098176581801
+    second: font_LilD0t_by_Maiku_Davis_0_53
+  - first:
+      213: -5988805109140343459
+    second: font_LilD0t_by_Maiku_Davis_0_54
+  - first:
+      213: 4679736070852268826
+    second: font_LilD0t_by_Maiku_Davis_0_55
+  - first:
+      213: -5772540729261041343
+    second: font_LilD0t_by_Maiku_Davis_0_56
+  - first:
+      213: 4377029885227477521
+    second: font_LilD0t_by_Maiku_Davis_0_57
+  - first:
+      213: 8853530182179409443
+    second: font_LilD0t_by_Maiku_Davis_0_58
+  - first:
+      213: -8756777348705661322
+    second: font_LilD0t_by_Maiku_Davis_0_59
+  - first:
+      213: -2912908437275861857
+    second: font_LilD0t_by_Maiku_Davis_0_60
+  - first:
+      213: -5351527629677258789
+    second: font_LilD0t_by_Maiku_Davis_0_61
+  - first:
+      213: -6907428938752412180
+    second: font_LilD0t_by_Maiku_Davis_0_62
+  - first:
+      213: -1658168774037038830
+    second: font_LilD0t_by_Maiku_Davis_0_63
+  - first:
+      213: 1851662319506478339
+    second: font_LilD0t_by_Maiku_Davis_0_64
+  - first:
+      213: 8646123675086419312
+    second: font_LilD0t_by_Maiku_Davis_0_65
+  - first:
+      213: 4793450296683339641
+    second: font_LilD0t_by_Maiku_Davis_0_66
+  - first:
+      213: 2083515698845340304
+    second: font_LilD0t_by_Maiku_Davis_0_67
+  - first:
+      213: 6196077600576026590
+    second: font_LilD0t_by_Maiku_Davis_0_68
+  - first:
+      213: -5528831689725727307
+    second: font_LilD0t_by_Maiku_Davis_0_69
+  - first:
+      213: 1589244193734523481
+    second: font_LilD0t_by_Maiku_Davis_0_70
+  - first:
+      213: -7106818049557527282
+    second: font_LilD0t_by_Maiku_Davis_0_71
+  - first:
+      213: 4294268533007181885
+    second: font_LilD0t_by_Maiku_Davis_0_72
+  - first:
+      213: 7739143215619674849
+    second: font_LilD0t_by_Maiku_Davis_0_73
+  - first:
+      213: 4259344714612601649
+    second: font_LilD0t_by_Maiku_Davis_0_74
+  - first:
+      213: 8475476034188158810
+    second: font_LilD0t_by_Maiku_Davis_0_75
+  - first:
+      213: -4430244436375687814
+    second: font_LilD0t_by_Maiku_Davis_0_76
+  - first:
+      213: -2751834703468164841
+    second: font_LilD0t_by_Maiku_Davis_0_77
+  - first:
+      213: 9078009151160727393
+    second: font_LilD0t_by_Maiku_Davis_0_78
+  - first:
+      213: -2402708083667479472
+    second: font_LilD0t_by_Maiku_Davis_0_79
+  - first:
+      213: -8939951012615065361
+    second: font_LilD0t_by_Maiku_Davis_0_80
+  - first:
+      213: -3740368443770319436
+    second: font_LilD0t_by_Maiku_Davis_0_81
+  - first:
+      213: 2866038858261157262
+    second: font_LilD0t_by_Maiku_Davis_0_82
+  - first:
+      213: -8722193132257994820
+    second: font_LilD0t_by_Maiku_Davis_0_83
+  - first:
+      213: 3132246056789365645
+    second: font_LilD0t_by_Maiku_Davis_0_84
+  - first:
+      213: 1913427853525562899
+    second: font_LilD0t_by_Maiku_Davis_0_85
+  - first:
+      213: -743119230531567595
+    second: font_LilD0t_by_Maiku_Davis_0_86
+  - first:
+      213: -2365636335200352887
+    second: font_LilD0t_by_Maiku_Davis_0_87
+  - first:
+      213: 3235394387924903106
+    second: font_LilD0t_by_Maiku_Davis_0_88
+  - first:
+      213: -8050724560575393650
+    second: font_LilD0t_by_Maiku_Davis_0_89
+  - first:
+      213: 40356719323538505
+    second: font_LilD0t_by_Maiku_Davis_0_90
+  - first:
+      213: -1182714615525407225
+    second: font_LilD0t_by_Maiku_Davis_0_91
+  - first:
+      213: 1921478400904328752
+    second: font_LilD0t_by_Maiku_Davis_0_92
+  - first:
+      213: 2041112821264170562
+    second: font_LilD0t_by_Maiku_Davis_0_93
+  - first:
+      213: -3659829170718396541
+    second: font_LilD0t_by_Maiku_Davis_0_94
+  - first:
+      213: 7290130493036624254
+    second: font_LilD0t_by_Maiku_Davis_0_95
+  - first:
+      213: 8672330785574253524
+    second: font_LilD0t_by_Maiku_Davis_0_96
+  - first:
+      213: 1409546504831402968
+    second: font_LilD0t_by_Maiku_Davis_0_97
+  - first:
+      213: 1079982387648483981
+    second: font_LilD0t_by_Maiku_Davis_0_98
+  - first:
+      213: -4068558389800539664
+    second: font_LilD0t_by_Maiku_Davis_0_99
+  - first:
+      213: -112275321805631583
+    second: font_LilD0t_by_Maiku_Davis_0_100
+  - first:
+      213: 676522365486911104
+    second: font_LilD0t_by_Maiku_Davis_0_101
+  - first:
+      213: 5185309193781894399
+    second: font_LilD0t_by_Maiku_Davis_0_102
+  - first:
+      213: -1716736134747836421
+    second: font_LilD0t_by_Maiku_Davis_0_103
+  - first:
+      213: 5106381747992197528
+    second: font_LilD0t_by_Maiku_Davis_0_104
+  - first:
+      213: 429783455166165535
+    second: font_LilD0t_by_Maiku_Davis_0_105
+  - first:
+      213: -7319407479655106460
+    second: font_LilD0t_by_Maiku_Davis_0_106
+  - first:
+      213: 8597953602006903644
+    second: font_LilD0t_by_Maiku_Davis_0_107
+  - first:
+      213: -1865144891247333525
+    second: font_LilD0t_by_Maiku_Davis_0_108
+  - first:
+      213: -4852484421142619192
+    second: font_LilD0t_by_Maiku_Davis_0_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b04027acfb1c5170800000000000000
+      internalID: 8168434596092854454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee25f53fe73f3ef0800000000000000
+      internalID: -126320764001112344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c746d309f0c13d0800000000000000
+      internalID: -3234693320179155865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31089b07f814987e0800000000000000
+      internalID: -1762805694811504621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d832d182dcd011c0800000000000000
+      internalID: -4534882028082808620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c6f3b0824d0220800000000000000
+      internalID: 2453690492529328242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45db0d8a4c27ae70800000000000000
+      internalID: 9126311868595164491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb00180fff14ba20800000000000000
+      internalID: 3077119625613282245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1ce36ec4a2c8530800000000000000
+      internalID: 3858505490518426045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9d7154ebdd29900800000000000000
+      internalID: 689857502213822901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61873b7a9d8622f70800000000000000
+      internalID: 9160999876055758870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af20730c362a590800000000000000
+      internalID: -7664453938623350258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acc12bcbe11dd3a0800000000000000
+      internalID: -6639130571251266399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90de37d2b3c4a40800000000000000
+      internalID: 5353719123441158563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815b67c3a341b8fc0800000000000000
+      internalID: -3491674845740616424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff361934137cd6820800000000000000
+      internalID: 2913203548379505663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4847403e3c02ded0800000000000000
+      internalID: -2390834990942828467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f7e3641a7798c60800000000000000
+      internalID: 7820913762457517962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199f2998519765010800000000000000
+      internalID: 1177261486013348241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd5260cc3e62150800000000000000
+      internalID: 5847611631603145964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd58914e65873600800000000000000
+      internalID: 447973396540055007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90b7bd2ebb964700800000000000000
+      internalID: 524277647748346011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aa04971bcd16ce0800000000000000
+      internalID: -1413606153216022000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec8e1d9541ffb8a0800000000000000
+      internalID: -6287041273494860574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3f381e56cc6d3f0800000000000000
+      internalID: -876288339529698356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5c3ae7d2393e210800000000000000
+      internalID: 1361093336003495403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f24a023a55a630800000000000000
+      internalID: 3937652620172391424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2146942f197a9e600800000000000000
+      internalID: 498113479078142994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcae34b1e4bab6b80800000000000000
+      internalID: -8400432327976293683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a2b1af0f9e8230800000000000000
+      internalID: 3643024038075475836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9a97a399b4e0c90800000000000000
+      internalID: -7201735632635713063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9d5725e677f4770800000000000000
+      internalID: 8597221529387129303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c504f38566e3c30800000000000000
+      internalID: 4341019620036074593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f25ff58d14bf9f80800000000000000
+      internalID: -8097555566093708555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322a0602d4cbba940800000000000000
+      internalID: 5308543625227969059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f3f56147623bef0800000000000000
+      internalID: -93688887211245803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71215ec28d3ac3b60800000000000000
+      internalID: 7727231209522401815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec967460c620ee10800000000000000
+      internalID: 2224820823682096362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd12088070c626ec0800000000000000
+      internalID: -3575176376715566629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84acfa861430bc8c0800000000000000
+      internalID: -3978082266387592632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623347a5368c11e0800000000000000
+      internalID: -2225756550830280086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024160ab9ad223d30800000000000000
+      internalID: 4409637192142820384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534097ab3d6c8ce30800000000000000
+      internalID: 4524084438362555445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_43
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c1b1b73057afb80800000000000000
+      internalID: -8360241100449178544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdff039f36a71e80800000000000000
+      internalID: -8207909003878990401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bffd396bf96c5fe0800000000000000
+      internalID: -1198966872264015944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1f26614cc39840800000000000000
+      internalID: 5229748173566582374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_47
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6ed4fff789cee20800000000000000
+      internalID: 3381245095759963898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cf1e6b3d7d8aa10800000000000000
+      internalID: 1921022545379851336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2438c4359a9d750800000000000000
+      internalID: 6330276926476993195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111d49cb6c1655d80800000000000000
+      internalID: -8262590435146018543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad989f1fca315970800000000000000
+      internalID: 8741833012965580199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea77e8294a92f8c0800000000000000
+      internalID: -3966938682750436639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b37fbbc7cbc000800000000000000
+      internalID: 57359098176581801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_54
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5535a8bb7d73eca0800000000000000
+      internalID: -5988805109140343459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a135bb18923c1f040800000000000000
+      internalID: 4679736070852268826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_56
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149dbec7ac0d3efa0800000000000000
+      internalID: -5772540729261041343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aa0487d755ebc30800000000000000
+      internalID: 4377029885227477521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ec00deace0eda70800000000000000
+      internalID: 8853530182179409443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e4631956da97680800000000000000
+      internalID: -8756777348705661322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c1fe4a5354397d0800000000000000
+      internalID: -2912908437275861857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7166379fd8bb5b0800000000000000
+      internalID: -5351527629677258789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5b8623af1e320a0800000000000000
+      internalID: -6907428938752412180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21990ed09400df8e0800000000000000
+      internalID: -1658168774037038830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305d82ea11d62b910800000000000000
+      internalID: 1851662319506478339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_65
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075fe916ca33df770800000000000000
+      internalID: 8646123675086419312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f1d46e5a1c58240800000000000000
+      internalID: 4793450296683339641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09250a93d722aec10800000000000000
+      internalID: 2083515698845340304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7b61fdfb3ecf550800000000000000
+      internalID: 6196077600576026590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bda9f60fd4a543b0800000000000000
+      internalID: -5528831689725727307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95af5ec8c212e0610800000000000000
+      internalID: 1589244193734523481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e050ac033a28f5d90800000000000000
+      internalID: -7106818049557527282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_72
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e7009a7e489b30800000000000000
+      internalID: 4294268533007181885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e292e830c5f66b60800000000000000
+      internalID: 7739143215619674849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133fb62737b3c1b30800000000000000
+      internalID: 4259344714612601649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_75
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572f105c80fe9570800000000000000
+      internalID: 8475476034188158810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_76
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d2da5582c9482c0800000000000000
+      internalID: -4430244436375687814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7190033cae48fc9d0800000000000000
+      internalID: -2751834703468164841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_78
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1673ea2c9319bfd70800000000000000
+      internalID: 9078009151160727393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0545a0e5abdd7aed0800000000000000
+      internalID: -2402708083667479472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe07faf7be9eee380800000000000000
+      internalID: -8939951012615065361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd4dfbb7ba871cc0800000000000000
+      internalID: -3740368443770319436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_82
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e855f1b182736c720800000000000000
+      internalID: 2866038858261157262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_83
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb71961fe8b84f680800000000000000
+      internalID: -8722193132257994820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_84
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d835c0c7139f77b20800000000000000
+      internalID: 3132246056789365645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_85
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316bab8be7cdd8a10800000000000000
+      internalID: 1913427853525562899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_86
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510876e3ff8efa5f0800000000000000
+      internalID: -743119230531567595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98540ac69429b2fd0800000000000000
+      internalID: -2365636335200352887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c46e80dd0e66ec20800000000000000
+      internalID: 3235394387924903106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_89
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80146eaaa4164090800000000000000
+      internalID: -8050724560575393650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944649fe8306f8000800000000000000
+      internalID: 40356719323538505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70602fec257269fe0800000000000000
+      internalID: -1182714615525407225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_92
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036fc79dc667aaa10800000000000000
+      internalID: 1921478400904328752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_93
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e32f1fb4d735c10800000000000000
+      internalID: 2041112821264170562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fa7b482cca53dc0800000000000000
+      internalID: -3659829170718396541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_95
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f0b30f0fbb2560800000000000000
+      internalID: 7290130493036624254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_96
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d376d8c6ee4a5870800000000000000
+      internalID: 8672330785574253524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_97
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d38edaf317bf8310800000000000000
+      internalID: 1409546504831402968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d825773724edcfe00800000000000000
+      internalID: 1079982387648483981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_99
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9e00c53b39987c0800000000000000
+      internalID: -4068558389800539664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af8bbe803e117ef0800000000000000
+      internalID: -112275321805631583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e447dc18d736900800000000000000
+      internalID: 676522365486911104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcdfe12d3be5f740800000000000000
+      internalID: 5185309193781894399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_103
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff2743c49dec28e0800000000000000
+      internalID: -1716736134747836421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_104
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899fc9025238dd640800000000000000
+      internalID: 5106381747992197528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_105
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f48f76c5e6f500800000000000000
+      internalID: 429783455166165535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_106
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f1d85dad3c6a90800000000000000
+      internalID: -7319407479655106460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_107
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b69e24f31125770800000000000000
+      internalID: 8597953602006903644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_108
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f61967a9cad16e0800000000000000
+      internalID: -1865144891247333525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_LilD0t_by_Maiku_Davis_0_109
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb5da7e02388acb0800000000000000
+      internalID: -4852484421142619192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
