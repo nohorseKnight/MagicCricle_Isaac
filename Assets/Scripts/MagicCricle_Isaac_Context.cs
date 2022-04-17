@@ -7,6 +7,7 @@ namespace MagicCricle_Isaac
         protected override void Init()
         {
             RegisterSystem(new UISystem());
+            RegisterModel(new MagicCricleModel());
         }
     }
 }

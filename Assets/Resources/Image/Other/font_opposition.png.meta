@@ -1,0 +1,2748 @@
+fileFormatVersion: 2
+guid: f18ad2bcc4889824480cf34aaac88f0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1241116186950708440
+    second: font_opposition_0
+  - first:
+      213: -8473921627286173414
+    second: font_opposition_1
+  - first:
+      213: -6633768264388800626
+    second: font_opposition_2
+  - first:
+      213: 2879896040679618639
+    second: font_opposition_3
+  - first:
+      213: -173318929447540443
+    second: font_opposition_4
+  - first:
+      213: -541770514540894573
+    second: font_opposition_5
+  - first:
+      213: 4295253617309145209
+    second: font_opposition_6
+  - first:
+      213: -7238972653370417230
+    second: font_opposition_7
+  - first:
+      213: -5675939571567338592
+    second: font_opposition_8
+  - first:
+      213: 7774270175357026111
+    second: font_opposition_9
+  - first:
+      213: 3796377014850346528
+    second: font_opposition_10
+  - first:
+      213: 8898737361576871332
+    second: font_opposition_11
+  - first:
+      213: 5170445206418469166
+    second: font_opposition_12
+  - first:
+      213: 357120825436716534
+    second: font_opposition_13
+  - first:
+      213: -4050649743463264894
+    second: font_opposition_14
+  - first:
+      213: -6873730860624111583
+    second: font_opposition_15
+  - first:
+      213: -4224087426749444518
+    second: font_opposition_16
+  - first:
+      213: -8772774231226218097
+    second: font_opposition_17
+  - first:
+      213: 1602007552090416727
+    second: font_opposition_18
+  - first:
+      213: 5646134549153286083
+    second: font_opposition_19
+  - first:
+      213: 5556531436848204616
+    second: font_opposition_20
+  - first:
+      213: 827223032362180675
+    second: font_opposition_21
+  - first:
+      213: -5315505461794096865
+    second: font_opposition_22
+  - first:
+      213: 8357713531837140879
+    second: font_opposition_23
+  - first:
+      213: 7844603723873204867
+    second: font_opposition_24
+  - first:
+      213: 3216464506123076173
+    second: font_opposition_25
+  - first:
+      213: 146314415583785385
+    second: font_opposition_26
+  - first:
+      213: 5796508625154781752
+    second: font_opposition_27
+  - first:
+      213: -6739796531233619127
+    second: font_opposition_28
+  - first:
+      213: -5486117814250943070
+    second: font_opposition_29
+  - first:
+      213: 6116752391473407505
+    second: font_opposition_30
+  - first:
+      213: -2961667787003545971
+    second: font_opposition_31
+  - first:
+      213: -553340407966950310
+    second: font_opposition_32
+  - first:
+      213: 8272706178349205616
+    second: font_opposition_33
+  - first:
+      213: 4053111077859948218
+    second: font_opposition_34
+  - first:
+      213: -5524098389017902587
+    second: font_opposition_35
+  - first:
+      213: -1483686065305908208
+    second: font_opposition_36
+  - first:
+      213: 9082120873999047981
+    second: font_opposition_37
+  - first:
+      213: 7585188824881706345
+    second: font_opposition_38
+  - first:
+      213: 4087610916901923497
+    second: font_opposition_39
+  - first:
+      213: -2541662305919883766
+    second: font_opposition_40
+  - first:
+      213: 2626484003885736675
+    second: font_opposition_41
+  - first:
+      213: -8558423855859708443
+    second: font_opposition_42
+  - first:
+      213: 9120647397923797821
+    second: font_opposition_43
+  - first:
+      213: 6375429299944563537
+    second: font_opposition_44
+  - first:
+      213: -6167728348008912027
+    second: font_opposition_45
+  - first:
+      213: 305690447497787739
+    second: font_opposition_46
+  - first:
+      213: -436543770197802264
+    second: font_opposition_47
+  - first:
+      213: -5377202475680575548
+    second: font_opposition_48
+  - first:
+      213: -4980330755580031774
+    second: font_opposition_49
+  - first:
+      213: -2739728942410798758
+    second: font_opposition_50
+  - first:
+      213: -1476024093312481871
+    second: font_opposition_51
+  - first:
+      213: 1840676356244197086
+    second: font_opposition_52
+  - first:
+      213: -5959201980173814461
+    second: font_opposition_53
+  - first:
+      213: -8126589991255005835
+    second: font_opposition_54
+  - first:
+      213: -5949261472999448244
+    second: font_opposition_55
+  - first:
+      213: 8764098197247437449
+    second: font_opposition_56
+  - first:
+      213: -5096768206485750898
+    second: font_opposition_57
+  - first:
+      213: -4317022365498420550
+    second: font_opposition_58
+  - first:
+      213: -8175181441759807426
+    second: font_opposition_59
+  - first:
+      213: 5558047389385733650
+    second: font_opposition_60
+  - first:
+      213: -3029989328034178284
+    second: font_opposition_61
+  - first:
+      213: -6876998088684507122
+    second: font_opposition_62
+  - first:
+      213: -7592883004593023693
+    second: font_opposition_63
+  - first:
+      213: 4679422977405285883
+    second: font_opposition_64
+  - first:
+      213: 2935231286835214897
+    second: font_opposition_65
+  - first:
+      213: -7131032458266450297
+    second: font_opposition_66
+  - first:
+      213: -6492433454890013484
+    second: font_opposition_67
+  - first:
+      213: 7078170090147684100
+    second: font_opposition_68
+  - first:
+      213: -7595375529913373948
+    second: font_opposition_69
+  - first:
+      213: 7213061600377880451
+    second: font_opposition_70
+  - first:
+      213: -6351495886251827837
+    second: font_opposition_71
+  - first:
+      213: 7936730002082031908
+    second: font_opposition_72
+  - first:
+      213: -1699844511926919790
+    second: font_opposition_73
+  - first:
+      213: -7089202288952319538
+    second: font_opposition_74
+  - first:
+      213: 4221795570745559987
+    second: font_opposition_75
+  - first:
+      213: 5119691863223727826
+    second: font_opposition_76
+  - first:
+      213: -7225871676705518579
+    second: font_opposition_77
+  - first:
+      213: 2573798834503121694
+    second: font_opposition_78
+  - first:
+      213: -5179716442813720332
+    second: font_opposition_79
+  - first:
+      213: 6071320766084675883
+    second: font_opposition_80
+  - first:
+      213: 7561543082443535742
+    second: font_opposition_81
+  - first:
+      213: -3402497885872978589
+    second: font_opposition_82
+  - first:
+      213: 4582094580847626388
+    second: font_opposition_83
+  - first:
+      213: -6329314293250391789
+    second: font_opposition_84
+  - first:
+      213: -4842804916493138533
+    second: font_opposition_85
+  - first:
+      213: 5096245167645193154
+    second: font_opposition_86
+  - first:
+      213: -385742468732327712
+    second: font_opposition_87
+  - first:
+      213: 8043152882649806089
+    second: font_opposition_88
+  - first:
+      213: -1510493570197932431
+    second: font_opposition_89
+  - first:
+      213: 4519393572607962287
+    second: font_opposition_90
+  - first:
+      213: 1694840384256745516
+    second: font_opposition_91
+  - first:
+      213: 8395861326537919963
+    second: font_opposition_92
+  - first:
+      213: 4895735215912904930
+    second: font_opposition_93
+  - first:
+      213: -4139936264431020552
+    second: font_opposition_94
+  - first:
+      213: 7295741725612896073
+    second: font_opposition_95
+  - first:
+      213: 3706515734463731820
+    second: font_opposition_96
+  - first:
+      213: -9005055446900691715
+    second: font_opposition_97
+  - first:
+      213: 2009540288970146994
+    second: font_opposition_98
+  - first:
+      213: -4257388095325733892
+    second: font_opposition_99
+  - first:
+      213: -7484350937179084817
+    second: font_opposition_100
+  - first:
+      213: -7479333643633750398
+    second: font_opposition_101
+  - first:
+      213: -665271192556842623
+    second: font_opposition_102
+  - first:
+      213: 4390259667364852559
+    second: font_opposition_103
+  - first:
+      213: -4128318869495024645
+    second: font_opposition_104
+  - first:
+      213: -8125460494030494560
+    second: font_opposition_105
+  - first:
+      213: -4303312735433281389
+    second: font_opposition_106
+  - first:
+      213: -5173656507809706152
+    second: font_opposition_107
+  - first:
+      213: 6647978788830363985
+    second: font_opposition_108
+  - first:
+      213: 6262065660155697421
+    second: font_opposition_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: font_opposition_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823d0d7576ba6cee0800000000000000
+      internalID: -1241116186950708440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a198b1f3d25966a80800000000000000
+      internalID: -8473921627286173414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f88d629ee10f3a0800000000000000
+      internalID: -6633768264388800626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4833cec03277f720800000000000000
+      internalID: 2879896040679618639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529ad691a5f389df0800000000000000
+      internalID: -173318929447540443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966203669e3b78f0800000000000000
+      internalID: -541770514540894573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9785cef586ecb9b30800000000000000
+      internalID: 4295253617309145209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfd619b9b00a8b90800000000000000
+      internalID: -7238972653370417230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab552638030b31b0800000000000000
+      internalID: -5675939571567338592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fb11ed881c3eb60800000000000000
+      internalID: 7774270175357026111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02edc9be7c07fa430800000000000000
+      internalID: 3796377014850346528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5494a9b7aae7b70800000000000000
+      internalID: 8898737361576871332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21b133658c11c740800000000000000
+      internalID: 5170445206418469166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdbc06af7fb4f400800000000000000
+      internalID: 357120825436716534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4853058339c7c0800000000000000
+      internalID: -4050649743463264894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1281cda633a9b90a0800000000000000
+      internalID: -6873730860624111583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ec7649dd60165c0800000000000000
+      internalID: -4224087426749444518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f898f0d1158d04680800000000000000
+      internalID: -8772774231226218097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756a7dd71697b3610800000000000000
+      internalID: 1602007552090416727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7875c35791b5e40800000000000000
+      internalID: 5646134549153286083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc0ace6e3cc1d40800000000000000
+      internalID: 5556531436848204616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34028f117f2ea7b00800000000000000
+      internalID: 827223032362180675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193d1cf1f78b36b0800000000000000
+      internalID: -5315505461794096865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fc0a71d209cf370800000000000000
+      internalID: 8357713531837140879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a3b2d3681addc60800000000000000
+      internalID: 7844603723873204867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d424e104d6d23ac20800000000000000
+      internalID: 3216464506123076173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f36e8f20d70200800000000000000
+      internalID: 146314415583785385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832b6d322e5517050800000000000000
+      internalID: 5796508625154781752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943096983ce6772a0800000000000000
+      internalID: -6739796531233619127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad41a52ae46dd3b0800000000000000
+      internalID: -5486117814250943070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1162bc064e113e450800000000000000
+      internalID: 6116752391473407505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86bfecd6da06e6d0800000000000000
+      internalID: -2961667787003545971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9247a4d32258f0800000000000000
+      internalID: -553340407966950310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0780fa3407e8ec270800000000000000
+      internalID: 8272706178349205616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6fa0f0d0b8f3830800000000000000
+      internalID: 4053111077859948218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502c74a78c57653b0800000000000000
+      internalID: -5524098389017902587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c8e3f6263e86be0800000000000000
+      internalID: -1483686065305908208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d9fd5d0dc2a0e70800000000000000
+      internalID: 9082120873999047981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96536555c01044960800000000000000
+      internalID: 7585188824881706345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaa2f9c87c1ab830800000000000000
+      internalID: 4087610916901923497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0625ac59933abcd0800000000000000
+      internalID: -2541662305919883766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2eadb2945237420800000000000000
+      internalID: 2626484003885736675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edc04af8de5a3980800000000000000
+      internalID: -8558423855859708443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_43
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bb6d23c7c039e70800000000000000
+      internalID: 9120647397923797821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15320d97b231a7850800000000000000
+      internalID: 6375429299944563537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b62d9deb3d76aa0800000000000000
+      internalID: -6167728348008912027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59f556a7d70e3400800000000000000
+      internalID: 305690447497787739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_47
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2437001c511f9f0800000000000000
+      internalID: -436543770197802264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf45b786d65065b0800000000000000
+      internalID: -5377202475680575548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec03b1909f42eab0800000000000000
+      internalID: -4980330755580031774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a596fb6ea078af9d0800000000000000
+      internalID: -2739728942410798758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5013e48eb148be0800000000000000
+      internalID: -1476024093312481871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede4568c4656b8910800000000000000
+      internalID: 1840676356244197086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3457fea4f59ac4da0800000000000000
+      internalID: -5959201980173814461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_54
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752000a57d883f80800000000000000
+      internalID: -8126589991255005835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4163f9f53aff6da0800000000000000
+      internalID: -5949261472999448244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_56
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a239f40e450a970800000000000000
+      internalID: 8764098197247437449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b79ede154a449b0800000000000000
+      internalID: -5096768206485750898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2dc09f70bd614c0800000000000000
+      internalID: -4317022365498420550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e387a8deacbeb8e80800000000000000
+      internalID: -8175181441759807426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216bf1127a6222d40800000000000000
+      internalID: 5558047389385733650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b5c4d72c053f5d0800000000000000
+      internalID: -3029989328034178284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e007bea9caeff80a0800000000000000
+      internalID: -6876998088684507122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d12ad229a0a690800000000000000
+      internalID: -7592883004593023693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5fa02c766a0f040800000000000000
+      internalID: 4679422977405285883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_65
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13afc69cd490cb820800000000000000
+      internalID: 2935231286835214897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866f33d2cb790d90800000000000000
+      internalID: -7131032458266450297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc2b61db2e36e5a0800000000000000
+      internalID: -6492433454890013484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1c0bf136ba3260800000000000000
+      internalID: 7078170090147684100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ba1d3923ec79690800000000000000
+      internalID: -7595375529913373948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fb8812f41f91460800000000000000
+      internalID: 7213061600377880451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dda93a424fad7a0800000000000000
+      internalID: -6351495886251827837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_72
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429e844e2ede42e60800000000000000
+      internalID: 7936730002082031908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dd23d2c60f868e0800000000000000
+      internalID: -1699844511926919790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec16c1214181e9d90800000000000000
+      internalID: -7089202288952319538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_75
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb4b9c14b4d69a30800000000000000
+      internalID: 4221795570745559987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_76
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d678e2df9ccc0740800000000000000
+      internalID: 5119691863223727826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c496d8efb88bb90800000000000000
+      internalID: -7225871676705518579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_78
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b7fd54768f7b320800000000000000
+      internalID: 2573798834503121694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f896dca653fd18b0800000000000000
+      internalID: -5179716442813720332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29fdebc11aa14450800000000000000
+      internalID: 6071320766084675883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75fbd6ee5fffe860800000000000000
+      internalID: 7561543082443535742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_82
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36506833336e7c0d0800000000000000
+      internalID: -3402497885872978589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_83
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4984aaa8ebed69f30800000000000000
+      internalID: 4582094580847626388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_84
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31102073f22c928a0800000000000000
+      internalID: -6329314293250391789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_85
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9549e33696eaccb0800000000000000
+      internalID: -4842804916493138533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_86
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3fac99aff79b640800000000000000
+      internalID: 5096245167645193154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e86d68b44195aaf0800000000000000
+      internalID: -385742468732327712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905308caee40f9f60800000000000000
+      internalID: 8043152882649806089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_89
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17637d0d916a90be0800000000000000
+      internalID: -1510493570197932431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac2b7f628c18be30800000000000000
+      internalID: 4519393572607962287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c202c9e8958458710800000000000000
+      internalID: 1694840384256745516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_92
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd8bbfa467148470800000000000000
+      internalID: 8395861326537919963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_93
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8ebda7d3521f340800000000000000
+      internalID: 4895735215912904930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5d4ddd6edfb86c0800000000000000
+      internalID: -4139936264431020552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_95
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe628e17eaf3560800000000000000
+      internalID: 7295741725612896073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_96
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c685b1b2c60307330800000000000000
+      internalID: 3706515734463731820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_97
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca9c828cd970380800000000000000
+      internalID: -9005055446900691715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4c6edee3253eb10800000000000000
+      internalID: 2009540288970146994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_99
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf12b7518bae4c0800000000000000
+      internalID: -4257388095325733892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe72417f97e322890800000000000000
+      internalID: -7484350937179084817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e0596ada1143890800000000000000
+      internalID: -7479333643633750398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815958006b74c6f0800000000000000
+      internalID: -665271192556842623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_103
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43b10928e55dec30800000000000000
+      internalID: 4390259667364852559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_104
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f4386cd345b6c0800000000000000
+      internalID: -4128318869495024645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_105
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a7d03bb09c3f80800000000000000
+      internalID: -8125460494030494560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_106
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b517fddf8744c0800000000000000
+      internalID: -4303312735433281389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_107
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f4d1e31da7338b0800000000000000
+      internalID: -5173656507809706152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_108
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151c0966c7d524c50800000000000000
+      internalID: 6647978788830363985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: font_opposition_109
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0990c14a8357e650800000000000000
+      internalID: 6262065660155697421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

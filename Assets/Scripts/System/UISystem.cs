@@ -13,7 +13,7 @@ namespace MagicCricle_Isaac
             canvasTrans = Object.FindObjectOfType<Canvas>().transform;
         }
 
-        public GameObject OpenUI(string name, string layoutName = "Layout_Middle")
+        public GameObject OpenUI(string name, string layoutName = "MiddleLayout")
         {
             if (openedWindow.ContainsKey(name)) return null;
             var go = Object.Instantiate(Resources.Load<GameObject>($"UIPrefabs/{name}"), canvasTrans.Find(layoutName));

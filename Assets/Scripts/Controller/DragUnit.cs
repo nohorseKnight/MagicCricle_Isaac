@@ -17,6 +17,8 @@ namespace MagicCricle_Isaac
 
     public class DragUnit : BaseController, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
+        [SerializeField] public UnitStyle Style;
+        [SerializeField] public CircleNumer ActOnCricleNumber;
         private RectTransform canvasRec;
         private Transform orignalParent;
         // Start is called before the first frame update
@@ -39,7 +41,7 @@ namespace MagicCricle_Isaac
             // orignalPos = this.transform.position;
             this.GetComponent<BoxCollider2D>().enabled = true;
 
-            // ActOnCricleNumber = CircleNumer.NONE;
+            ActOnCricleNumber = CircleNumer.NONE;
         }
 
         public void OnDrag(PointerEventData eventData)
@@ -60,14 +62,14 @@ namespace MagicCricle_Isaac
 
             this.GetComponent<BoxCollider2D>().enabled = false;
 
-            // if (Style >= UnitStyle.NUMBER_1 && Style <= UnitStyle.NUMBER_1000)
-            // {
-            //     this.SendCommand(new InputMagicNumberCommand(Style, Other));
-            // }
-            // else
-            // {
-            //     this.SendCommand(new MagicCricleViewUpdateCommand(Style, ActOnCricleNumber));
-            // }
+            if (Style >= UnitStyle.NUMBER_0 && Style <= UnitStyle.NUMBER_9)
+            {
+                // this.SendCommand(new InputMagicNumberCommand(Style, Other));
+            }
+            if (Style >= UnitStyle.GROUND && Style <= UnitStyle.LIGHT)
+            {
+                this.SendCommand(new SingleCricleUpdateCommand(Style, ActOnCricleNumber));
+            }
         }
 
         void OnTriggerEnter2D(Collider2D other)
