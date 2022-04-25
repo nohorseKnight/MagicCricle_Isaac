@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using QFramework;
 
 namespace MagicCricle_Isaac
 {
@@ -16,6 +17,22 @@ namespace MagicCricle_Isaac
         void Update()
         {
             Run();
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Vector3 shootDir;
+                float x = animator.GetFloat("Horizontal");
+                float y = animator.GetFloat("Vertical");
+                if (Mathf.Abs(x) > Mathf.Abs(y))
+                {
+                    shootDir = new Vector3(x > 0 ? 1 : -1, 0, 0);
+                }
+                else
+                {
+                    shootDir = new Vector3(0, y > 0 ? 1 : -1, 0);
+                }
+                this.SendCommand(new ShootMagicBulletCommand(GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/MagicBullet"), transform.position, Quaternion.identity).transform, shootDir));
+            }
         }
 
         void Run()

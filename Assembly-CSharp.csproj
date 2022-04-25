@@ -36,19 +36,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Controller\MagicBook.cs" />
      <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
+     <Compile Include="Assets\Scripts\Controller\GameStart.cs" />
      <Compile Include="Assets\Scripts\Controller\Player.cs" />
      <Compile Include="Assets\Scripts\Controller\Slime.cs" />
      <Compile Include="Assets\Scripts\MagicCricle_Isaac_Context.cs" />
+     <Compile Include="Assets\Scripts\Model\MagicCricleModel.cs" />
+     <Compile Include="Assets\Scripts\Command\SingleCricleUpdateCommand.cs" />
+     <Compile Include="Assets\Scripts\Controller\SingleCricle.cs" />
      <Compile Include="Assets\Scripts\Controller\DragUnit.cs" />
+     <Compile Include="Assets\Scripts\Controller\MainUI.cs" />
      <Compile Include="Assets\Scripts\System\UISystem.cs" />
      <Compile Include="Assets\Scripts\QFramework.cs" />
-     <Compile Include="Assets\Scripts\Controller\SingleCricle.cs" />
-     <Compile Include="Assets\Scripts\Model\MagicCricleModel.cs" />
-     <Compile Include="Assets\Scripts\Controller\GameStart.cs" />
-     <Compile Include="Assets\Scripts\Controller\MainUI.cs" />
-     <Compile Include="Assets\Scripts\Controller\MagicBook.cs" />
-     <Compile Include="Assets\Scripts\Command\SingleCricleUpdateCommand.cs" />
+     <Compile Include="Assets\Scripts\Controller\MagicBullet.cs" />
+     <Compile Include="Assets\Scripts\Command\ShootMagicBulletCommand.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
