@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using QFramework;
 
 namespace MagicCricle_Isaac
 {
     public class Player : BaseController
     {
+        public GameObject SpellingBarImage;
         public Animator animator;
         // Start is called before the first frame update
         void Start()
         {
+            SpellingBarImage.GetComponent<Image>().fillAmount = 0;
         }
 
         // Update is called once per frame
@@ -20,18 +23,11 @@ namespace MagicCricle_Isaac
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Vector3 shootDir;
-                float x = animator.GetFloat("Horizontal");
-                float y = animator.GetFloat("Vertical");
-                if (Mathf.Abs(x) > Mathf.Abs(y))
-                {
-                    shootDir = new Vector3(x > 0 ? 1 : -1, 0, 0);
-                }
-                else
-                {
-                    shootDir = new Vector3(0, y > 0 ? 1 : -1, 0);
-                }
-                this.SendCommand(new ShootMagicBulletCommand(GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/MagicBullet"), transform.position, Quaternion.identity).transform, shootDir));
+                StartCoroutine("Spelling");
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+
             }
         }
 
@@ -44,6 +40,33 @@ namespace MagicCricle_Isaac
 
             transform.position = transform.position + movement * Time.deltaTime;
 
+        }
+
+        IEnumerator Spelling()
+        {
+            float value = 0;
+            while (SpellingBarImage.GetComponent<Image>().fillAmount < 1)
+            {
+                if (Input.GetKeyUp(KeyCode.Space))
+                {
+                    SpellingBarImage.GetComponent<Image>().fillAmount = 0;
+                    StopCoroutine("Spelling");
+                    yield return 0;
+                }
+                Debug.Log($"value : {value}");
+                value += Time.deltaTime;
+                SpellingBarImage.GetComponent<Image>().fillAmount = value / 1f;
+                yield return 0;
+            }
+            SpellingBarImage.GetComponent<Image>().fillAmount = 0;
+            ShootMagicBullet();
+        }
+
+        void ShootMagicBullet()
+        {
+            float h = animator.GetFloat("Horizontal");
+            float v = animator.GetFloat("Vertical");
+            this.SendCommand(new ShootMagicBulletCommand(transform.position, h, v));
         }
     }
 }
