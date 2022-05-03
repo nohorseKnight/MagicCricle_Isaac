@@ -58,13 +58,13 @@ namespace MagicCricle_Isaac
 
             MagicCricleModel magicCricleModel = this.GetModel<MagicCricleModel>();
 
-            if (_actOnCricle == CircleNumer.Cricle_1)
+            if (_actOnCricle == CircleNumer.Cricle_1 && _inputUnitStyle >= UnitStyle.STAR_3 && _inputUnitStyle <= UnitStyle.STAR_5)
             {
                 magicCricleModel.SecondCricleStar.Value = _inputUnitStyle;
             }
-            else if (_actOnCricle == CircleNumer.Cricle_2)
+            else if (_actOnCricle == CircleNumer.Cricle_2 && _inputUnitStyle >= UnitStyle.STAR_6 && _inputUnitStyle <= UnitStyle.STAR_9)
             {
-                magicCricleModel.SecondCricleStar.Value = _inputUnitStyle;
+                magicCricleModel.ThirdCricleStar.Value = _inputUnitStyle;
             }
         }
     }

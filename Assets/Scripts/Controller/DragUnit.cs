@@ -14,7 +14,9 @@ namespace MagicCricle_Isaac
         NUMBER_0, NUMBER_1, NUMBER_2, NUMBER_3, NUMBER_4, NUMBER_5, NUMBER_6, NUMBER_7, NUMBER_8, NUMBER_9,
         STAR_3, STAR_4, STAR_5, STAR_6, STAR_7, STAR_8, STAR_9,
         PowerElement_Start,
-        DecreaseCD, DecreaseEnemySpeed, DecreaseSpellingTime, IncreaseEffect, IncreaseEffectTime, IncreaseHPByAttack, IncreaseObjectSpeed, Invisibility, Separatist, Surround, TriggerByBeingAttacked,
+        DecreaseCD, DecreaseSpellingTime, IncreaseEffectTime, IncreaseObjectSpeed,
+        DecreaseEnemySpeed, IncreaseHPByAttack, Surround, TriggerByBeingAttacked, Invisibility,
+        IncreaseEffect, Separatist,
         PowerElement_End
     }
 
