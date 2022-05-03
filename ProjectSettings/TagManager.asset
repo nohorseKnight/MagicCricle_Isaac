@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - DragUnit
+  - CricleRing
+  - PowerBlank
   layers:
   - Default
   - TransparentFX

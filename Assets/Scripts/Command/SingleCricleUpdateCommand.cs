@@ -6,30 +6,65 @@ using QFramework;
 
 namespace MagicCricle_Isaac
 {
-    public class SingleCricleUpdateCommand : AbstractCommand
+    public class SingleCricleElementUpdateCommand : AbstractCommand
     {
         private UnitStyle _inputUnitStyle;
         private CircleNumer _actOnCricle;
-        public SingleCricleUpdateCommand(UnitStyle inputUnitStyle, CircleNumer actOnCricle)
+        public SingleCricleElementUpdateCommand(UnitStyle inputUnitStyle, CircleNumer actOnCricle)
         {
             _inputUnitStyle = inputUnitStyle;
             _actOnCricle = actOnCricle;
         }
         protected override void OnExecute()
         {
-            Debug.Log("SingleCricleUpdateCommand: " + _inputUnitStyle.ToString() + ", " + _actOnCricle.ToString());
+            Debug.Log("SingleCricleElementUpdateCommand: " + _inputUnitStyle.ToString() + ", " + _actOnCricle.ToString());
+            UpdateSingleRingViewEvent updateEvent = new UpdateSingleRingViewEvent();
+            updateEvent.cricle = _actOnCricle;
+            updateEvent.element = _inputUnitStyle;
+            this.SendEvent(updateEvent);
+
             MagicCricleModel magicCricleModel = this.GetModel<MagicCricleModel>();
             if (_actOnCricle == CircleNumer.Cricle_0)
             {
-                magicCricleModel.FirstCricleElement.Value = Element.NONE + (_inputUnitStyle - UnitStyle.NONE);
+                magicCricleModel.FirstCricleElement.Value = _inputUnitStyle;
             }
             else if (_actOnCricle == CircleNumer.Cricle_1)
             {
-                magicCricleModel.SecondCricleElement.Value = Element.NONE + (_inputUnitStyle - UnitStyle.NONE);
+                magicCricleModel.SecondCricleElement.Value = _inputUnitStyle;
             }
             else if (_actOnCricle == CircleNumer.Cricle_2)
             {
-                magicCricleModel.ThirdCricleElement.Value = Element.NONE + (_inputUnitStyle - UnitStyle.NONE);
+                magicCricleModel.ThirdCricleElement.Value = _inputUnitStyle;
+            }
+        }
+    }
+
+    public class SingleCricleRingStarUpdateCommand : AbstractCommand
+    {
+        private UnitStyle _inputUnitStyle;
+        private CircleNumer _actOnCricle;
+        public SingleCricleRingStarUpdateCommand(UnitStyle inputUnitStyle, CircleNumer actOnCricle)
+        {
+            _inputUnitStyle = inputUnitStyle;
+            _actOnCricle = actOnCricle;
+        }
+        protected override void OnExecute()
+        {
+            Debug.Log("SingleCricleRingStarUpdateCommand: " + _inputUnitStyle.ToString() + ", " + _actOnCricle.ToString());
+            UpdateRingStarViewEvent updateEvent = new UpdateRingStarViewEvent();
+            updateEvent.star = _inputUnitStyle;
+            updateEvent.cricle = _actOnCricle;
+            this.SendEvent(updateEvent);
+
+            MagicCricleModel magicCricleModel = this.GetModel<MagicCricleModel>();
+
+            if (_actOnCricle == CircleNumer.Cricle_1)
+            {
+                magicCricleModel.SecondCricleStar.Value = _inputUnitStyle;
+            }
+            else if (_actOnCricle == CircleNumer.Cricle_2)
+            {
+                magicCricleModel.SecondCricleStar.Value = _inputUnitStyle;
             }
         }
     }

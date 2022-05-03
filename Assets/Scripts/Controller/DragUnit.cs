@@ -12,7 +12,10 @@ namespace MagicCricle_Isaac
         NONE,
         GROUND, THUNDER, WATER, PLANT, MOUNTAIN, FIRE, WIND, LIGHT,
         NUMBER_0, NUMBER_1, NUMBER_2, NUMBER_3, NUMBER_4, NUMBER_5, NUMBER_6, NUMBER_7, NUMBER_8, NUMBER_9,
-        STAR_3, STAR_4, STAR_5, STAR_6, STAR_7, STAR_8, STAR_9
+        STAR_3, STAR_4, STAR_5, STAR_6, STAR_7, STAR_8, STAR_9,
+        PowerElement_Start,
+        DecreaseCD, DecreaseEnemySpeed, DecreaseSpellingTime, IncreaseEffect, IncreaseEffectTime, IncreaseHPByAttack, IncreaseObjectSpeed, Invisibility, Separatist, Surround, TriggerByBeingAttacked,
+        PowerElement_End
     }
 
     public class DragUnit : BaseController, IBeginDragHandler, IDragHandler, IEndDragHandler
@@ -21,6 +24,7 @@ namespace MagicCricle_Isaac
         [SerializeField] public CircleNumer ActOnCricleNumber;
         private RectTransform canvasRec;
         private Transform orignalParent;
+        private Collider2D targetCollider;
         // Start is called before the first frame update
         void Start()
         {
@@ -68,13 +72,29 @@ namespace MagicCricle_Isaac
             }
             if (Style >= UnitStyle.GROUND && Style <= UnitStyle.LIGHT)
             {
-                this.SendCommand(new SingleCricleUpdateCommand(Style, ActOnCricleNumber));
+                this.SendCommand(new SingleCricleElementUpdateCommand(Style, ActOnCricleNumber));
+            }
+            if (Style >= UnitStyle.STAR_3 && Style <= UnitStyle.STAR_9)
+            {
+                this.SendCommand(new SingleCricleRingStarUpdateCommand(Style, ActOnCricleNumber));
+            }
+            if (Style > UnitStyle.PowerElement_Start && Style < UnitStyle.PowerElement_End)
+            {
+                this.SendCommand(new PowerBlankUpdateCommand(targetCollider, Style));
             }
         }
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            // Debug.Log("DragUnit OnTriggerEnter2D");
+            Debug.Log("DragUnit OnTriggerEnter2D");
+            if (Style >= UnitStyle.GROUND && Style <= UnitStyle.LIGHT && other.tag == "CricleRing")
+            {
+                targetCollider = other;
+            }
+            else if (Style > UnitStyle.PowerElement_Start && Style < UnitStyle.PowerElement_End && other.tag == "PowerBlank")
+            {
+                targetCollider = other;
+            }
         }
 
         void OnTriggerExit2D(Collider2D other)

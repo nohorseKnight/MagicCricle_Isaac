@@ -25,10 +25,6 @@ namespace MagicCricle_Isaac
             {
                 StartCoroutine("Spelling");
             }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-
-            }
         }
 
         void Run()
@@ -53,7 +49,7 @@ namespace MagicCricle_Isaac
                     StopCoroutine("Spelling");
                     yield return 0;
                 }
-                Debug.Log($"value : {value}");
+                // Debug.Log($"value : {value}");
                 value += Time.deltaTime;
                 SpellingBarImage.GetComponent<Image>().fillAmount = value / 1f;
                 yield return 0;

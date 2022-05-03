@@ -6,12 +6,23 @@ using QFramework;
 
 namespace MagicCricle_Isaac
 {
+    public struct UpdateRingStarViewEvent
+    {
+        public UnitStyle star;
+        public CircleNumer cricle;
+    }
+    public struct UpdateSingleRingViewEvent
+    {
+        public UnitStyle element;
+        public CircleNumer cricle;
+    }
     public class MagicBook : BaseController
     {
         public Button ExitButton;
         public Button ClearButton;
         public Button InfoButton;
         public Button DoneButton;
+        public Transform PowerElementsTrans;
 
         void Start()
         {
@@ -26,9 +37,17 @@ namespace MagicCricle_Isaac
 
             ClearButton.onClick.AddListener(() =>
             {
-                magicCricleModel.FirstCricleElement.Value = Element.NONE;
-                magicCricleModel.SecondCricleElement.Value = Element.NONE;
-                magicCricleModel.ThirdCricleElement.Value = Element.NONE;
+                magicCricleModel.FirstCricleElement.Value = UnitStyle.NONE;
+                magicCricleModel.SecondCricleElement.Value = UnitStyle.NONE;
+                magicCricleModel.ThirdCricleElement.Value = UnitStyle.NONE;
+                magicCricleModel.SecondCricleStar.Value = UnitStyle.NONE;
+                magicCricleModel.ThirdCricleStar.Value = UnitStyle.NONE;
+
+                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_0));
+                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
+                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
+                this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
+                this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
             });
 
             InfoButton.onClick.AddListener(() =>
@@ -41,6 +60,87 @@ namespace MagicCricle_Isaac
 
             });
 
+            InitPowerElements();
+
+            this.RegisterEvent<UpdateRingStarViewEvent>(updateEvent =>
+            {
+                UpdateRingStarView(updateEvent.star, updateEvent.cricle);
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
+
+            this.RegisterEvent<UpdateSingleRingViewEvent>(updateEvent =>
+            {
+                UpdateSingleRingView(updateEvent.element, updateEvent.cricle);
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
+        }
+
+        void InitPowerElements()
+        {
+            GameObject obj;
+            for (UnitStyle i = UnitStyle.PowerElement_Start + 1; i < UnitStyle.PowerElement_End; i++)
+            {
+                obj = GameObject.Instantiate(Resources.Load<GameObject>("UIPrefabs/DragUnitBase"), PowerElementsTrans);
+                Debug.Log($"Image/Powers/{i.ToString()})");
+                obj.transform.Find("Unit").GetComponent<Image>().sprite = Resources.Load<Sprite>($"Image/Powers/{i.ToString()}");
+                obj.transform.Find("Unit").GetComponent<DragUnit>().Style = i;
+            }
+        }
+
+        void UpdateRingStarView(UnitStyle star, CircleNumer cricle)
+        {
+            if (cricle == CircleNumer.NONE || cricle == CircleNumer.Cricle_0) return;
+            Transform trans = transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
+            // Debug.Log($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
+            if (trans.GetComponentsInChildren<Transform>(true).Length > 1) Destroy(trans.GetChild(0).gameObject);
+            if (star != UnitStyle.NONE)
+            {
+                if (trans.GetComponentsInChildren<Transform>(true).Length > 1) Destroy(trans.GetChild(0).gameObject);
+                // clear cricle model
+                GameObject.Instantiate(Resources.Load<GameObject>($"UIPrefabs/RingStars/{star.ToString()}"), trans);
+            }
+        }
+
+        void UpdateSingleRingView(UnitStyle element, CircleNumer cricle)
+        {
+            if (cricle == CircleNumer.NONE) return;
+            Transform trans = cricle == CircleNumer.Cricle_0 ?
+                transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}/CoreImage") :
+                transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
+            if (element == UnitStyle.NONE)
+            {
+                switch (cricle)
+                {
+                    case CircleNumer.Cricle_0:
+                        trans.GetComponent<Image>().sprite = null;
+                        break;
+                    case CircleNumer.Cricle_1:
+                        trans.GetComponent<Image>().sprite = Resources.Load<Sprite>("Image/Rings/Cricle_BASE_1");
+                        break;
+                    case CircleNumer.Cricle_2:
+                        trans.GetComponent<Image>().sprite = Resources.Load<Sprite>("Image/Rings/Cricle_BASE_2");
+                        break;
+                    default:
+                        Debug.Log("default");
+                        break;
+                }
+            }
+            else
+            {
+                switch (cricle)
+                {
+                    case CircleNumer.Cricle_0:
+                        trans.GetComponent<Image>().sprite = Resources.Load<Sprite>($"Image/Elements/{element}");
+                        break;
+                    case CircleNumer.Cricle_1:
+                        trans.GetComponent<Image>().sprite = Resources.Load<Sprite>($"Image/Rings/Cricle_{element}_1");
+                        break;
+                    case CircleNumer.Cricle_2:
+                        trans.GetComponent<Image>().sprite = Resources.Load<Sprite>($"Image/Rings/Cricle_{element}_2");
+                        break;
+                    default:
+                        Debug.Log("default");
+                        break;
+                }
+            }
         }
     }
 }
