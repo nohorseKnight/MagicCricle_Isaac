@@ -10,6 +10,7 @@ namespace MagicCricle_Isaac
     {
         public GameObject SpellingBarImage;
         public Animator animator;
+        float spellingTime = 3f;
         // Start is called before the first frame update
         void Start()
         {
@@ -40,21 +41,30 @@ namespace MagicCricle_Isaac
 
         IEnumerator Spelling()
         {
+            AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
+            MagicCricleData data = (MagicCricleData)availableSkillsModel.SkillsList[0];
+
             float value = 0;
+            GameObject magicCricleEffectObj = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/MagicCricleEffect"), transform);
+            magicCricleEffectObj.transform.Find("Cricle_2").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/Cricle_{data.ElementArr[2]}_2");
+            magicCricleEffectObj.transform.Find("Cricle_1").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/Cricle_{data.ElementArr[1]}_1");
+            magicCricleEffectObj.transform.Find("Cricle_0").Find("Core").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/{data.ElementArr[1]}");
             while (SpellingBarImage.GetComponent<Image>().fillAmount < 1)
             {
                 if (Input.GetKeyUp(KeyCode.Space))
                 {
                     SpellingBarImage.GetComponent<Image>().fillAmount = 0;
+                    Destroy(magicCricleEffectObj);
                     StopCoroutine("Spelling");
                     yield return 0;
                 }
                 // Debug.Log($"value : {value}");
                 value += Time.deltaTime;
-                SpellingBarImage.GetComponent<Image>().fillAmount = value / 1f;
+                SpellingBarImage.GetComponent<Image>().fillAmount = value / spellingTime;
                 yield return 0;
             }
             SpellingBarImage.GetComponent<Image>().fillAmount = 0;
+            Destroy(magicCricleEffectObj);
             ShootMagicBullet();
         }
 

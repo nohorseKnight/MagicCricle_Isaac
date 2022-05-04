@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 namespace MagicCricle_Isaac
 {
+    public struct MagicCricleData
+    {
+        public UnitStyle[] ElementArr;
+        public UnitStyle[] StarArr_1;
+        public UnitStyle[] StarArr_2;
+    }
     public class MagicCricleModel : AbstractModel
     {
         public GameObject MagicCricleObject;
