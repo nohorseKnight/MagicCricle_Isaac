@@ -6,9 +6,21 @@ namespace MagicCricle_Isaac
 {
     public class MagicBullet : BaseController
     {
+        public Vector3 ShootDir;
+        public float MovingSpeed;
         void Start()
         {
-            // Destroy(gameObject, 5f);
+            transform.position = transform.position + ShootDir * 1;
+        }
+
+        void Update()
+        {
+            transform.position = transform.position + ShootDir * MovingSpeed * Time.deltaTime;
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            Destroy(gameObject);
         }
     }
 }

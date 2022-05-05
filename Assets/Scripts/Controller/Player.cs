@@ -10,10 +10,12 @@ namespace MagicCricle_Isaac
     {
         public GameObject SpellingBarImage;
         public Animator animator;
+        float movingSpeed;
         float spellingTime = 3f;
         // Start is called before the first frame update
         void Start()
         {
+            movingSpeed = 1;
             SpellingBarImage.GetComponent<Image>().fillAmount = 0;
         }
 
@@ -35,26 +37,28 @@ namespace MagicCricle_Isaac
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Magnitude", movement.magnitude);
 
-            transform.position = transform.position + movement * Time.deltaTime;
+            transform.position = transform.position + movement * movingSpeed * Time.deltaTime;
 
         }
 
         IEnumerator Spelling()
         {
+            movingSpeed = 0.5f;
+
             AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
             MagicCricleData data = (MagicCricleData)availableSkillsModel.SkillsList[0];
 
+            this.SendCommand(new ShowMagicCricleEffectCommand(transform.Find("MagicCricleEffect"), data));
+
             float value = 0;
-            GameObject magicCricleEffectObj = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/MagicCricleEffect"), transform);
-            magicCricleEffectObj.transform.Find("Cricle_2").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/Cricle_{data.ElementArr[2]}_2");
-            magicCricleEffectObj.transform.Find("Cricle_1").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/Cricle_{data.ElementArr[1]}_1");
-            magicCricleEffectObj.transform.Find("Cricle_0").Find("Core").GetComponent<Renderer>().material = Resources.Load<Material>($"Material/{data.ElementArr[1]}");
+
             while (SpellingBarImage.GetComponent<Image>().fillAmount < 1)
             {
                 if (Input.GetKeyUp(KeyCode.Space))
                 {
                     SpellingBarImage.GetComponent<Image>().fillAmount = 0;
-                    Destroy(magicCricleEffectObj);
+                    Destroy(transform.Find("MagicCricleEffect").GetChild(0).gameObject);
+                    movingSpeed = 1;
                     StopCoroutine("Spelling");
                     yield return 0;
                 }
@@ -64,7 +68,8 @@ namespace MagicCricle_Isaac
                 yield return 0;
             }
             SpellingBarImage.GetComponent<Image>().fillAmount = 0;
-            Destroy(magicCricleEffectObj);
+            movingSpeed = 1;
+            Destroy(transform.Find("MagicCricleEffect").GetChild(0).gameObject);
             ShootMagicBullet();
         }
 

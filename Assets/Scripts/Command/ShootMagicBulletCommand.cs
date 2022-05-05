@@ -24,10 +24,10 @@ namespace MagicCricle_Isaac
         }
         protected override void OnExecute()
         {
-            float moveSpeed = 10f;
             _bullet = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/MagicBullet"), _startPos, Quaternion.identity);
             _bullet.transform.eulerAngles = new Vector3(0, 0, -90f + Util.GetAngleFromVectorFloat(_shootDir));
-            _bullet.GetComponent<Rigidbody2D>().AddForce(_shootDir * moveSpeed, ForceMode2D.Impulse);
+            _bullet.GetComponent<MagicBullet>().ShootDir = _shootDir;
+            _bullet.GetComponent<MagicBullet>().MovingSpeed = 5f;
             GameObject.Destroy(_bullet, 5f);
         }
     }

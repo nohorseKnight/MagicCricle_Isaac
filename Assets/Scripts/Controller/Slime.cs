@@ -27,7 +27,8 @@ namespace MagicCricle_Isaac
             if (transform.position != TargetPos)
             {
                 Vector3 offset = TargetPos - transform.position;
-                Vector3 movement = offset.normalized;
+                float speed = 0.5f;
+                Vector3 movement = offset.normalized * speed;
                 animator.SetFloat("Horizontal", movement.x);
                 animator.SetFloat("Vertical", movement.y);
                 animator.SetFloat("Magnitude", movement.magnitude);
@@ -36,6 +37,14 @@ namespace MagicCricle_Isaac
                 {
                     TargetPos = transform.position;
                 }
+            }
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.GetComponent<MagicBullet>() != null)
+            {
+                Destroy(gameObject);
             }
         }
     }
