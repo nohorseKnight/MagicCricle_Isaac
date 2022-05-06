@@ -32,22 +32,13 @@ namespace MagicCricle_Isaac
             });
 
             MagicCricleModel magicCricleModel = this.GetModel<MagicCricleModel>();
+            AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
 
-            magicCricleModel.MagicCricleObject = transform.Find("MagicCriclePanel").Find("MagicCricle").gameObject;
+            magicCricleModel.MagicCricleObject = transform.Find("MagicCriclePanel").Find("MagicCricleView").gameObject;
 
             ClearButton.onClick.AddListener(() =>
             {
-                magicCricleModel.FirstCricleElement.Value = UnitStyle.NONE;
-                magicCricleModel.SecondCricleElement.Value = UnitStyle.NONE;
-                magicCricleModel.ThirdCricleElement.Value = UnitStyle.NONE;
-                magicCricleModel.SecondCricleStar.Value = UnitStyle.NONE;
-                magicCricleModel.ThirdCricleStar.Value = UnitStyle.NONE;
-
-                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_0));
-                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
-                this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
-                this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
-                this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
+                ClearMagicCricle();
             });
 
             InfoButton.onClick.AddListener(() =>
@@ -57,7 +48,20 @@ namespace MagicCricle_Isaac
 
             DoneButton.onClick.AddListener(() =>
             {
-
+                if (!magicCricleModel.IsComplete())
+                {
+                    this.GetSystem<UISystem>().OpenInfoPoup("Error", "Magic Cricle is not completed.");
+                }
+                if (availableSkillsModel.Count.Value == 4)
+                {
+                    this.GetSystem<UISystem>().OpenInfoPoup("Error", "Skill List is full(Max capacity is 4).");
+                }
+                MagicCricleData data = new MagicCricleData();
+                data.ElementArr = new UnitStyle[3] { magicCricleModel.FirstCricleElement.Value, magicCricleModel.SecondCricleElement.Value, magicCricleModel.ThirdCricleElement.Value };
+                data.StarArr_1 = magicCricleModel.SecondCricleStarArr;
+                data.StarArr_2 = magicCricleModel.ThirdCricleStarArr;
+                availableSkillsModel.SkillsList[availableSkillsModel.Count.Value] = data;
+                availableSkillsModel.Count.Value++;
             });
 
             InitPowerElements();
@@ -71,6 +75,23 @@ namespace MagicCricle_Isaac
             {
                 UpdateSingleRingView(updateEvent.element, updateEvent.cricle);
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
+        }
+
+        void ClearMagicCricle()
+        {
+            MagicCricleModel magicCricleModel = this.GetModel<MagicCricleModel>();
+
+            magicCricleModel.FirstCricleElement.Value = UnitStyle.NONE;
+            magicCricleModel.SecondCricleElement.Value = UnitStyle.NONE;
+            magicCricleModel.ThirdCricleElement.Value = UnitStyle.NONE;
+            magicCricleModel.SecondCricleStar.Value = UnitStyle.NONE;
+            magicCricleModel.ThirdCricleStar.Value = UnitStyle.NONE;
+
+            this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_0));
+            this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
+            this.SendCommand(new SingleCricleElementUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
+            this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_1));
+            this.SendCommand(new SingleCricleRingStarUpdateCommand(UnitStyle.NONE, CircleNumer.Cricle_2));
         }
 
         void InitPowerElements()
@@ -88,8 +109,8 @@ namespace MagicCricle_Isaac
         void UpdateRingStarView(UnitStyle star, CircleNumer cricle)
         {
             if (cricle == CircleNumer.NONE || cricle == CircleNumer.Cricle_0) return;
-            Transform trans = transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
-            // Debug.Log($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
+            Transform trans = transform.Find($"MagicCriclePanel/MagicCricleView/{cricle.ToString()}");
+            // Debug.Log($"MagicCriclePanel/MagicCricleView/{cricle.ToString()}");
             if (trans.GetComponentsInChildren<Transform>(true).Length > 1) Destroy(trans.GetChild(0).gameObject);
             if (star != UnitStyle.NONE)
             {
@@ -103,8 +124,9 @@ namespace MagicCricle_Isaac
         {
             if (cricle == CircleNumer.NONE) return;
             Transform trans = cricle == CircleNumer.Cricle_0 ?
-                transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}/CoreImage") :
-                transform.Find($"MagicCriclePanel/MagicCricle/{cricle.ToString()}");
+                transform.Find($"MagicCriclePanel/MagicCricleView/{cricle.ToString()}/CoreImage") :
+                transform.Find($"MagicCriclePanel/MagicCricleView/{cricle.ToString()}");
+            Debug.Log(trans == null ? "trans null" : "trans not null");
             if (element == UnitStyle.NONE)
             {
                 switch (cricle)

@@ -11,6 +11,19 @@ namespace MagicCricle_Isaac
         public UnitStyle[] ElementArr;
         public UnitStyle[] StarArr_1;
         public UnitStyle[] StarArr_2;
+
+        public bool Equals(MagicCricleData data)
+        {
+            if (this.Equals(default(MagicCricleData)) && data.Equals(default(MagicCricleData))) return true;
+            if (data.Equals(default(MagicCricleData))) return false;
+            if (this.Equals(default(MagicCricleData))) return false;
+
+            for (int i = 0; i < ElementArr.Length; i++) if (ElementArr[i] != data.ElementArr[i]) return false;
+            for (int i = 0; i < StarArr_1.Length; i++) if (StarArr_1[i] != data.StarArr_1[i]) return false;
+            for (int i = 0; i < StarArr_2.Length; i++) if (StarArr_2[i] != data.StarArr_2[i]) return false;
+
+            return true;
+        }
     }
     public class MagicCricleModel : AbstractModel
     {
@@ -68,6 +81,16 @@ namespace MagicCricle_Isaac
                     ThirdCricleStarArr = new UnitStyle[(int)(ThirdCricleStar - UnitStyle.STAR_3) + 3];
                 }
             });
+        }
+
+        public bool IsComplete()
+        {
+            if (FirstCricleElement.Value == UnitStyle.NONE) return false;
+            if (SecondCricleElement.Value == UnitStyle.NONE) return false;
+            if (ThirdCricleElement.Value == UnitStyle.NONE) return false;
+            if (SecondCricleStar.Value == UnitStyle.NONE) return false;
+            if (ThirdCricleStar.Value == UnitStyle.NONE) return false;
+            return true;
         }
     }
 }
