@@ -14,15 +14,21 @@ namespace MagicCricle_Isaac
 
         public bool Equals(MagicCricleData data)
         {
-            if (this.Equals(default(MagicCricleData)) && data.Equals(default(MagicCricleData))) return true;
-            if (data.Equals(default(MagicCricleData))) return false;
-            if (this.Equals(default(MagicCricleData))) return false;
+            if (isDefault(this) && isDefault(data)) return true;
+            if (isDefault(this)) return false;
+            if (isDefault(data)) return false;
 
             for (int i = 0; i < ElementArr.Length; i++) if (ElementArr[i] != data.ElementArr[i]) return false;
             for (int i = 0; i < StarArr_1.Length; i++) if (StarArr_1[i] != data.StarArr_1[i]) return false;
             for (int i = 0; i < StarArr_2.Length; i++) if (StarArr_2[i] != data.StarArr_2[i]) return false;
 
             return true;
+        }
+
+        bool isDefault(MagicCricleData data)
+        {
+            if (data.ElementArr == null && data.StarArr_1 == null && data.StarArr_2 == null) return true;
+            return false;
         }
     }
     public class MagicCricleModel : AbstractModel

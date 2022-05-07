@@ -51,10 +51,12 @@ namespace MagicCricle_Isaac
                 if (!magicCricleModel.IsComplete())
                 {
                     this.GetSystem<UISystem>().OpenInfoPoup("Error", "Magic Cricle is not completed.");
+                    return;
                 }
                 if (availableSkillsModel.Count.Value == 4)
                 {
                     this.GetSystem<UISystem>().OpenInfoPoup("Error", "Skill List is full(Max capacity is 4).");
+                    return;
                 }
                 MagicCricleData data = new MagicCricleData();
                 data.ElementArr = new UnitStyle[3] { magicCricleModel.FirstCricleElement.Value, magicCricleModel.SecondCricleElement.Value, magicCricleModel.ThirdCricleElement.Value };

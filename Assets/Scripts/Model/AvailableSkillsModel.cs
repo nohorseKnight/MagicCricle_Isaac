@@ -8,10 +8,12 @@ namespace MagicCricle_Isaac
     {
         public BindableProperty<int> Count = new BindableProperty<int>();
         public MagicCricleData[] SkillsList;
+        int preCount;
         protected override void OnInit()
         {
             Count.Value = 1;
-            SkillsList = new MagicCricleData[4];
+            preCount = 1;
+            SkillsList = new MagicCricleData[4] { default(MagicCricleData), default(MagicCricleData), default(MagicCricleData), default(MagicCricleData) };
             MagicCricleData data = new MagicCricleData();
             data.ElementArr = new UnitStyle[3] { UnitStyle.FIRE, UnitStyle.FIRE, UnitStyle.FIRE };
             data.StarArr_1 = new UnitStyle[3] { UnitStyle.IncreaseEffect, UnitStyle.DecreaseSpellingTime, UnitStyle.Separatist };
@@ -20,7 +22,17 @@ namespace MagicCricle_Isaac
 
             Count.Register(e =>
             {
-                this.SendEvent<SkillsUIPanelViewUpdateEvent>();
+                if (preCount < Count.Value)
+                {
+                    Debug.Log("preCount < Count.Value");
+                    this.SendEvent<AddSkillViewEvent>();
+                }
+                else
+                {
+                    Debug.Log("preCount >= Count.Value");
+                    this.SendEvent<DeleteSkillViewEvent>();
+                }
+                preCount = Count.Value;
             });
         }
     }

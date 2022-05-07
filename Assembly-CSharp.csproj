@@ -53,11 +53,12 @@
      <Compile Include="Assets\Scripts\Controller\SingleCricle.cs" />
      <Compile Include="Assets\Scripts\Controller\DragUnit.cs" />
      <Compile Include="Assets\Scripts\Controller\SkillsUIPanel.cs" />
+     <Compile Include="Assets\Scripts\Controller\InfoPopup.cs" />
      <Compile Include="Assets\Scripts\Controller\MainUI.cs" />
+     <Compile Include="Assets\Scripts\Command\UpdateSkillListUICommand.cs" />
      <Compile Include="Assets\Scripts\System\UISystem.cs" />
      <Compile Include="Assets\Scripts\QFramework.cs" />
-     <Compile Include="Assets\Scripts\Controller\InfoPopup.cs" />
-     <Compile Include="Assets\Scripts\Command\UpdateSkillListUICommand.cs" />
+     <Compile Include="Assets\Scripts\Controller\SkillView.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
