@@ -10,7 +10,7 @@ namespace MagicCricle_Isaac
         public float MovingSpeed;
         void Start()
         {
-            transform.position = transform.position + ShootDir * 1;
+            // transform.position = transform.position + ShootDir * 1;
         }
 
         void Update()
@@ -20,6 +20,8 @@ namespace MagicCricle_Isaac
 
         void OnTriggerEnter2D(Collider2D other)
         {
+            if (other.GetComponent<Player>() != null) return;
+            if (other.GetComponent<MagicBullet>() != null) return;
             Destroy(gameObject);
         }
     }

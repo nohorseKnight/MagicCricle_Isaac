@@ -11,14 +11,15 @@ namespace MagicCricle_Isaac
         int preCount;
         protected override void OnInit()
         {
-            Count.Value = 1;
-            preCount = 1;
             SkillsList = new MagicCricleData[4] { default(MagicCricleData), default(MagicCricleData), default(MagicCricleData), default(MagicCricleData) };
             MagicCricleData data = new MagicCricleData();
-            data.ElementArr = new UnitStyle[3] { UnitStyle.FIRE, UnitStyle.FIRE, UnitStyle.FIRE };
+            data.ElementArr = new UnitStyle[3] { UnitStyle.WATER, UnitStyle.WATER, UnitStyle.FIRE };
             data.StarArr_1 = new UnitStyle[3] { UnitStyle.IncreaseEffect, UnitStyle.DecreaseSpellingTime, UnitStyle.Separatist };
             data.StarArr_2 = new UnitStyle[7] { UnitStyle.IncreaseEffect, UnitStyle.IncreaseHPByAttack, UnitStyle.DecreaseEnemySpeed, UnitStyle.DecreaseCD, UnitStyle.NONE, UnitStyle.Separatist, UnitStyle.NONE };
             SkillsList[0] = data;
+
+            Count.Value = 1;
+            preCount = 1;
 
             Count.Register(e =>
             {

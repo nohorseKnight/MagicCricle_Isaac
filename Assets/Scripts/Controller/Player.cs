@@ -11,37 +11,75 @@ namespace MagicCricle_Isaac
         Image imageSpellingBar;
         public Animator animator;
         public int SkillIndex;
-        float hp;
-        float hpMax;
-        Image imageHp;
-        float mp;
-        float mpMax;
-        Image imageMp;
-        float movingSpeed;
-        float spellingTime = 3f;
+        Transform skillsUIPanel;
+        float _hp;
+        float _hpMax;
+        Image _imageHp;
+        float _mp;
+        float _mpMax;
+        Image _imageMp;
+        float _movingSpeed;
         // Start is called before the first frame update
         void Start()
         {
-
-            hp = hpMax = 100f;
-            mp = mpMax = 100f;
             SkillIndex = 0;
-            movingSpeed = 1;
-            imageHp = transform.Find("PlayerCanvas").Find("Hp").GetComponent<Image>();
-            imageMp = transform.Find("PlayerCanvas").Find("Mp").GetComponent<Image>();
+            skillsUIPanel = GameObject.Find("SkillsUIPanel").transform;
+            _hp = _hpMax = 100f;
+            _mp = _mpMax = 100f;
+            SkillIndex = 0;
+            _movingSpeed = 1;
+            _imageHp = transform.Find("PlayerCanvas").Find("Hp").GetComponent<Image>();
+            _imageMp = transform.Find("PlayerCanvas").Find("Mp").GetComponent<Image>();
             imageSpellingBar = transform.Find("PlayerCanvas").Find("SpellingBar").GetComponent<Image>();
             imageSpellingBar.fillAmount = 0;
+
+            SwitchSkillInList(0);
         }
 
         // Update is called once per frame
         void Update()
         {
+            MpIncreaseByTime();
             Run();
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 StartCoroutine("Spelling");
             }
+
+            if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchSkillInList(0);
+            if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchSkillInList(1);
+            if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchSkillInList(2);
+            if (Input.GetKeyDown(KeyCode.Alpha4)) SwitchSkillInList(3);
+
+        }
+
+        void MpIncreaseByTime()
+        {
+            _mp = _mp + Time.deltaTime * 5 > _mpMax ? _mpMax : _mp + Time.deltaTime * 5;
+            _imageMp.fillAmount = _mp / _mpMax;
+        }
+
+        void SwitchSkillInList(int index)
+        {
+            AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
+            if (index >= availableSkillsModel.Count)
+            {
+                Debug.Log("index >= availableSkillsModel.Count");
+                return;
+            }
+            if (index == SkillIndex)
+            {
+                Debug.Log("index == SkillIndex");
+                return;
+            }
+            SkillView preSkillView = skillsUIPanel.GetChild(SkillIndex).GetChild(0).GetComponent<SkillView>();
+            SkillView targetSkillView = skillsUIPanel.GetChild(index).GetChild(0).GetComponent<SkillView>();
+
+            preSkillView.SetFocus(false);
+            targetSkillView.SetFocus(true);
+
+            SkillIndex = index;
         }
 
         void Run()
@@ -51,15 +89,23 @@ namespace MagicCricle_Isaac
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Magnitude", movement.magnitude);
 
-            transform.position = transform.position + movement * movingSpeed * Time.deltaTime;
+            transform.position = transform.position + movement * _movingSpeed * Time.deltaTime;
         }
 
         IEnumerator Spelling()
         {
-            movingSpeed = 0.5f;
+            _movingSpeed = 0.5f;
 
             AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
-            MagicCricleData data = (MagicCricleData)availableSkillsModel.SkillsList[0];
+            SkillView skillView = skillsUIPanel.GetChild(SkillIndex).GetChild(0).GetComponent<SkillView>();
+            if (!skillView.IsReady || _mp < skillView.MpCost)
+            {
+                imageSpellingBar.fillAmount = 0;
+                _movingSpeed = 1;
+                StopCoroutine("Spelling");
+                yield return 0;
+            }
+            MagicCricleData data = skillView.Data;
 
             this.SendCommand(new ShowMagicCricleEffectCommand(transform.Find("MagicCricleEffect"), data));
 
@@ -71,50 +117,50 @@ namespace MagicCricle_Isaac
                 {
                     imageSpellingBar.fillAmount = 0;
                     Destroy(transform.Find("MagicCricleEffect").GetChild(0).gameObject);
-                    movingSpeed = 1;
+                    _movingSpeed = 1;
                     StopCoroutine("Spelling");
                     yield return 0;
                 }
                 // Debug.Log($"value : {value}");
                 value += Time.deltaTime;
-                imageSpellingBar.fillAmount = value / spellingTime;
+                imageSpellingBar.fillAmount = value / skillView.SpellingTime;
                 yield return 0;
             }
             imageSpellingBar.fillAmount = 0;
-            movingSpeed = 1;
+            _movingSpeed = 1;
             Destroy(transform.Find("MagicCricleEffect").GetChild(0).gameObject);
-            ShootMagicBullet();
+            SkillRelease(skillView);
         }
 
-        void ShootMagicBullet()
+        void SkillRelease(SkillView skillView)
         {
-            float h = animator.GetFloat("Horizontal");
-            float v = animator.GetFloat("Vertical");
-            this.SendCommand(new ShootMagicBulletCommand(transform.position, h, v));
+            _mp -= skillView.MpCost;
+            _imageMp.fillAmount = _mp / _mpMax;
+            skillView.StartRelease(transform);
         }
 
         public void DecreaseHp(float value)
         {
-            hp = hp - value < 0 ? 0 : hp - value;
-            imageHp.fillAmount = hp / hpMax;
+            _hp = _hp - value < 0 ? 0 : _hp - value;
+            _imageHp.fillAmount = _hp / _hpMax;
         }
 
         public void IncreaseHp(float value)
         {
-            hp = hp + value > hpMax ? hpMax : hp + value;
-            imageHp.fillAmount = hp / hpMax;
+            _hp = _hp + value > _hpMax ? _hpMax : _hp + value;
+            _imageHp.fillAmount = _hp / _hpMax;
         }
 
         public void DecreaseMp(float value)
         {
-            mp = mp - value < 0 ? 0 : mp - value;
-            imageMp.fillAmount = mp / mpMax;
+            _mp = _mp - value < 0 ? 0 : _mp - value;
+            _imageMp.fillAmount = _mp / _mpMax;
         }
 
         public void IncreaseMp(float value)
         {
-            mp = mp + value > mpMax ? mpMax : mp + value;
-            imageMp.fillAmount = mp / mpMax;
+            _mp = _mp + value > _mpMax ? _mpMax : _mp + value;
+            _imageMp.fillAmount = _mp / _mpMax;
         }
     }
 }

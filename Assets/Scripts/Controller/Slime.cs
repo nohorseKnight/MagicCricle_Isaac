@@ -44,6 +44,7 @@ namespace MagicCricle_Isaac
         {
             if (other.GetComponent<MagicBullet>() != null)
             {
+                Destroy(other.gameObject);
                 Destroy(gameObject);
             }
 

@@ -20,7 +20,7 @@ namespace MagicCricle_Isaac
             Debug.Log("UpdateSkillView");
             Debug.Log($"_data.ElementArr:{_data.ElementArr[0]}, {_data.ElementArr[1]}, {_data.ElementArr[2]}");
             GameObject skillView = GameObject.Instantiate(Resources.Load<GameObject>("UIPrefabs/SkillView"), _trans);
-            skillView.GetComponent<SkillView>().magicCricleData = _data;
+            skillView.GetComponent<SkillView>().Data = _data;
             GameObject cricleObj = GameObject.Instantiate(Resources.Load<GameObject>("UIPrefabs/MagicCricleView"), skillView.transform.Find("LeftPanel"));
 
             var trans_0 = cricleObj.transform.Find("Cricle_0");

@@ -29,6 +29,8 @@ namespace MagicCricle_Isaac
             {
                 RefreshSkillView();
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
+
+            transform.GetChild(0).GetChild(0).GetComponent<SkillView>().SetFocus(true);
         }
 
         void RefreshSkillView()
