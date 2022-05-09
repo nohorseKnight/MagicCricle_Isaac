@@ -33,6 +33,7 @@ namespace MagicCricle_Isaac
         }
         float _mpCost;
         float _bulletSpeed;
+        float _bulletNumber;
         void Start()
         {
             AvailableSkillsModel availableSkillsModel = this.GetModel<AvailableSkillsModel>();
@@ -61,6 +62,7 @@ namespace MagicCricle_Isaac
             switch (_data.ElementArr[0])
             {
                 case UnitStyle.GROUND:
+                    this.SendCommand(new PlayerSetTrapCommand(targetTrans, h, v));
                     break;
                 case UnitStyle.THUNDER:
                     _bulletSpeed += 2f;
@@ -71,12 +73,14 @@ namespace MagicCricle_Isaac
                 case UnitStyle.PLANT:
                     break;
                 case UnitStyle.MOUNTAIN:
+                    this.SendCommand(new PlayerSetRockWallCommand(targetTrans, h, v));
                     break;
                 case UnitStyle.FIRE:
                     break;
                 case UnitStyle.WIND:
                     break;
                 case UnitStyle.LIGHT:
+                    this.SendCommand(new PlayerUsePortalCommand(targetTrans));
                     break;
                 default:
                     break;
@@ -124,23 +128,42 @@ namespace MagicCricle_Isaac
             _mpCost = 5 * 3 + (_data.StarArr_1.Length + _data.StarArr_2.Length) * 5;
             _spellingTime = 3f;
             _bulletSpeed = 3f;
+            _bulletNumber = 1;
             for (int i = 0; i < _data.StarArr_1.Length; i++)
             {
-                if (_data.StarArr_1[i] == UnitStyle.DecreaseCD)
-                {
-                    float value = 5f - 1f;
-                    if (_data.StarArr_1[(i + 1) % _data.StarArr_1.Length] == UnitStyle.IncreaseEffect) value -= 1f;
-                    if (_data.StarArr_1[(i - 1) < 0 ? _data.StarArr_1.Length - 1 : (i - 1)] == UnitStyle.IncreaseEffect) value -= 1f;
-                    _CDTime = _CDTime > value ? value : _CDTime;
-                }
+                CheckInStarArr(i, _data.StarArr_1);
+            }
 
-                if (_data.StarArr_1[i] == UnitStyle.DecreaseSpellingTime)
-                {
-                    float value = 3f - 0.5f;
-                    if (_data.StarArr_1[(i + 1) % _data.StarArr_1.Length] == UnitStyle.IncreaseEffect) value -= 0.5f;
-                    if (_data.StarArr_1[(i - 1) < 0 ? _data.StarArr_1.Length - 1 : (i - 1)] == UnitStyle.IncreaseEffect) value -= 0.5f;
-                    _spellingTime = _spellingTime > value ? value : _spellingTime;
-                }
+            for (int i = 0; i < _data.StarArr_2.Length; i++)
+            {
+                CheckInStarArr(i, _data.StarArr_2);
+            }
+        }
+
+        void CheckInStarArr(int i, UnitStyle[] starArr)
+        {
+            if (starArr[i] == UnitStyle.DecreaseCD)
+            {
+                float value = 5f - 1f;
+                if (starArr[(i + 1) % starArr.Length] == UnitStyle.IncreaseEffect) value -= 1f;
+                if (starArr[(i - 1) < 0 ? starArr.Length - 1 : (i - 1)] == UnitStyle.IncreaseEffect) value -= 1f;
+                _CDTime = _CDTime > value ? value : _CDTime;
+            }
+
+            if (starArr[i] == UnitStyle.DecreaseSpellingTime)
+            {
+                float value = 3f - 0.5f;
+                if (starArr[(i + 1) % starArr.Length] == UnitStyle.IncreaseEffect) value -= 0.5f;
+                if (starArr[(i - 1) < 0 ? starArr.Length - 1 : (i - 1)] == UnitStyle.IncreaseEffect) value -= 0.5f;
+                _spellingTime = _spellingTime > value ? value : _spellingTime;
+            }
+
+            if (starArr[i] == UnitStyle.Separatist)
+            {
+                int value = 2;
+                if (starArr[(i + 1) % starArr.Length] == UnitStyle.IncreaseEffect) value++;
+                if (starArr[(i - 1) < 0 ? starArr.Length - 1 : (i - 1)] == UnitStyle.IncreaseEffect) value++;
+                _bulletNumber = _bulletNumber < value ? value : _bulletNumber;
             }
         }
     }

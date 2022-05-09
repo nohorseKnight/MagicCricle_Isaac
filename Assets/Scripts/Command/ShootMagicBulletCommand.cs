@@ -65,6 +65,17 @@ namespace MagicCricle_Isaac
                 InstantiateBullet(30f);
                 InstantiateBullet(-30f);
             }
+            else if (_bulletNumber == 4)
+            {
+                InstantiateBullet(45f);
+                InstantiateBullet(15f);
+                InstantiateBullet(-15f);
+                InstantiateBullet(-45f);
+            }
+            else
+            {
+                Debug.Log("_bulletNumber over 4");
+            }
 
             GameObject.Destroy(_bullet, 5f);
         }

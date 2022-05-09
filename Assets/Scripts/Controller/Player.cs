@@ -19,6 +19,12 @@ namespace MagicCricle_Isaac
         float _mpMax;
         Image _imageMp;
         float _movingSpeed;
+        Transform _portal;
+        public Transform Portal
+        {
+            get { return _portal; }
+            set { _portal = value; }
+        }
         // Start is called before the first frame update
         void Start()
         {
@@ -32,6 +38,7 @@ namespace MagicCricle_Isaac
             _imageMp = transform.Find("PlayerCanvas").Find("Mp").GetComponent<Image>();
             imageSpellingBar = transform.Find("PlayerCanvas").Find("SpellingBar").GetComponent<Image>();
             imageSpellingBar.fillAmount = 0;
+            _portal = null;
 
             SwitchSkillInList(0);
         }

@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Command\ShowMagicCricleEffectCommand.cs" />
      <Compile Include="Assets\Scripts\Controller\Slime.cs" />
      <Compile Include="Assets\Scripts\Util.cs" />
+     <Compile Include="Assets\Scripts\Controller\SkillView.cs" />
      <Compile Include="Assets\Scripts\Command\PowerBlankUpdateCommand.cs" />
      <Compile Include="Assets\Scripts\Controller\MagicBullet.cs" />
      <Compile Include="Assets\Scripts\MagicCricle_Isaac_Context.cs" />
@@ -58,7 +59,11 @@
      <Compile Include="Assets\Scripts\Command\UpdateSkillListUICommand.cs" />
      <Compile Include="Assets\Scripts\System\UISystem.cs" />
      <Compile Include="Assets\Scripts\QFramework.cs" />
-     <Compile Include="Assets\Scripts\Controller\SkillView.cs" />
+     <Compile Include="Assets\Scripts\Command\PlayerUsePortalCommand.cs" />
+     <Compile Include="Assets\Scripts\Controller\Trap.cs" />
+     <Compile Include="Assets\Scripts\Command\PlayerSetTrapCommand.cs" />
+     <Compile Include="Assets\Scripts\Controller\RockWall.cs" />
+     <Compile Include="Assets\Scripts\Command\PlayerSetRockWallCommand.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

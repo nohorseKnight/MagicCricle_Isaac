@@ -48,9 +48,18 @@ namespace MagicCricle_Isaac
                 Destroy(gameObject);
             }
 
-            if (other.GetComponent<Player>() != null)
+            // if (other.GetComponent<Player>() != null)
+            // {
+            //     other.GetComponent<Player>().DecreaseHp(25f);
+            //     Destroy(gameObject);
+            // }
+        }
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.GetComponent<Player>() != null)
             {
-                other.GetComponent<Player>().DecreaseHp(25f);
+                other.gameObject.GetComponent<Player>().DecreaseHp(25f);
                 Destroy(gameObject);
             }
         }

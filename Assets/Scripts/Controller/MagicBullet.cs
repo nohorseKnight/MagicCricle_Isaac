@@ -22,6 +22,7 @@ namespace MagicCricle_Isaac
         {
             if (other.GetComponent<Player>() != null) return;
             if (other.GetComponent<MagicBullet>() != null) return;
+            if (other.GetComponent<RockWall>() != null) return;
             Destroy(gameObject);
         }
     }
