@@ -6,8 +6,15 @@ using QFramework;
 
 namespace MagicCricle_Isaac
 {
+    public enum PlayerStatus
+    {
+        NONE,
+        USER_CONTROL,
+        AUTO_CONTROL
+    }
     public class Player : BaseController
     {
+        public PlayerStatus Status;
         Image imageSpellingBar;
         public Animator animator;
         public int SkillIndex;

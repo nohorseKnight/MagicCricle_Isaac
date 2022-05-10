@@ -78,6 +78,7 @@ namespace MagicCricle_Isaac
                 case UnitStyle.FIRE:
                     break;
                 case UnitStyle.WIND:
+                    this.SendCommand(new PlayerSetWindShieldCommand(targetTrans));
                     break;
                 case UnitStyle.LIGHT:
                     this.SendCommand(new PlayerUsePortalCommand(targetTrans));

@@ -14,11 +14,6 @@ namespace MagicCricle_Isaac
                 other.GetComponent<Player>().DecreaseHp(25f);
                 Destroy(gameObject);
             }
-            if (other.GetComponent<Slime>() != null)
-            {
-                Destroy(other.gameObject);
-                Destroy(gameObject);
-            }
         }
     }
 }

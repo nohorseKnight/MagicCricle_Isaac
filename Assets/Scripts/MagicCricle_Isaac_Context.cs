@@ -9,6 +9,7 @@ namespace MagicCricle_Isaac
             RegisterSystem(new UISystem());
             RegisterModel(new MagicCricleModel());
             RegisterModel(new AvailableSkillsModel());
+            RegisterModel(new GameRuntimeModel());
         }
     }
 }

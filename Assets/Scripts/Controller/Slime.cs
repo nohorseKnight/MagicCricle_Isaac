@@ -2,9 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using QFramework;
 
 namespace MagicCricle_Isaac
 {
+    public struct SlimeDestoryEvent
+    {
+
+    }
     public class Slime : BaseController
     {
         public Animator animator;
@@ -12,7 +17,10 @@ namespace MagicCricle_Isaac
         // Start is called before the first frame update
         void Start()
         {
-
+            this.RegisterEvent<SlimeDestoryEvent>(e =>
+            {
+                Destroy(gameObject);
+            });
         }
 
         // Update is called once per frame
@@ -42,9 +50,11 @@ namespace MagicCricle_Isaac
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.GetComponent<MagicBullet>() != null)
+            GameRuntimeModel gameRuntimeModel = this.GetModel<GameRuntimeModel>();
+            if (other.GetComponent<MagicBullet>() != null || other.GetComponent<Trap>() != null || other.GetComponent<WindShield>() != null)
             {
                 Destroy(other.gameObject);
+                gameRuntimeModel.SlimeCount--;
                 Destroy(gameObject);
             }
 
@@ -57,9 +67,11 @@ namespace MagicCricle_Isaac
 
         void OnCollisionEnter2D(Collision2D other)
         {
+            GameRuntimeModel gameRuntimeModel = this.GetModel<GameRuntimeModel>();
             if (other.gameObject.GetComponent<Player>() != null)
             {
                 other.gameObject.GetComponent<Player>().DecreaseHp(25f);
+                gameRuntimeModel.SlimeCount--;
                 Destroy(gameObject);
             }
         }
